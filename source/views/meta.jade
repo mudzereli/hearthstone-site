@@ -1,0 +1,26 @@
+.container-fluid.page-header
+  .container
+    h1
+      | Hearthstone Meta Tracker 
+      small
+        | Last 50 Games
+.container
+  .panel.panel-default
+    .panel-heading.text-center
+      strong Meta Tracker Statistics
+    .panel-body
+      .alert.alert-danger
+        ul
+          li This page contains a 
+            strong LIVE 
+            small (updated every 5 minutes) 
+            | feed of the current meta based on the 
+            strong Last 50 Matches 
+            | that 
+            strong I myself  
+            | have played.
+          li The matchup breakdown & suggested decks are based on 
+            a(href="http://celestialleague.com/")
+              | CelestialLeague's Matchup Chart
+      .text-center
+        iframe(src="https://docs.google.com/spreadsheets/d/1aXmRl0QlKJFIYOlav6aVpJtNL_hk0vkggUvzoNMM7Tc/pubhtml?gid=2087150605&amp;single=true&amp;widget=true&amp;headers=false", style="width: 1000px; height:900px;")

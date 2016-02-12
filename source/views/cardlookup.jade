@@ -1,0 +1,179 @@
+.container-fluid.page-header
+  .container.relative
+    h1 
+      | Hearthstone Card Lookup 
+      small
+        | {{ CurrentSeason }}
+    span.fix-top.fix-right
+      | Last Updated: 
+      .label.label-success
+        | {{ LastUpdateDate }}
+.container
+    .panel.panel-default
+        .panel-heading.panel-title
+            | ALL Hearthstone Card Information
+        .panel-body
+            h4.relative
+              | Card Search Criteria:
+              small(style="position: absolute; bottom: 0px; right: 0px;")
+                a(href="", ng-click="hide_search_criteria = !hide_search_criteria")
+                  span(ng-if="hide_search_criteria")
+                    | show &raquo;
+                  span(ng-if="!hide_search_criteria")
+                    | hide &raquo;
+            .row(ng-hide="hide_search_criteria")
+                .col-sm-5
+                    form
+                        .form-group
+                            label Card Name
+                            .input-group
+                                .input-group-addon
+                                    .fa.fa-search
+                                input.form-control(type="text", placeholder="Card Name...", ng-model="search.name")
+                        .form-group
+                            label Card Text
+                            .input-group
+                                .input-group-addon
+                                    .fa.fa-search
+                                input.form-control(type="text", placeholder="Card Text...", ng-model="search.text")
+                        .form-group
+                                label Card Class
+                                select.form-control(ng-model="search.class")
+                                    option
+                                    option(value="NEUTRAL") Neutral
+                                    option(ng-repeat="class in Classes", value="{{ class.Name }}") {{ class.Name }}
+                .col-sm-7
+                    .row
+                        .col-sm-6
+                            form
+                                div.form-group
+                                    label Card Mechanics
+                                    select.form-control(ng-model="search.mechanics")
+                                        option
+                                        option(value="DEATHRATTLE") DEATHRATTLE
+                                        option(value="TAUNT") TAUNT
+                                        option(value="INSPIRE") INSPIRE
+                                        option(value="SPELLPOWER") SPELLPOWER
+                                        option(value="BATTLECRY") BATTLECRY
+                                        option(value="SECRET") SECRET
+                                        option(value="OVERLOAD") OVERLOAD
+                                        option(value="FREEZE") FREEZE
+                                        option(value="COMBO") COMBO
+                                        option(value="AURA") AURA
+                                        option(value="STEALTH") STEALTH
+                                        option(value="DIVINE_SHIELD") DIVINE_SHIELD
+                                        option(value="ENRAGED") ENRAGED
+                                        option(value="CHARGE") CHARGE
+                                        option(value="SILENCE") SILENCE
+                                        option(value="WINDFURY") WINDFURY
+                                        option(value="POISONOUS") POISONOUS
+                                        option(value="FORGETFUL") FORGETFUL
+                        .col-sm-6
+                            form
+                                div.form-group
+                                    label Mana Cost
+                                    select.form-control(ng-model="search.cost")
+                                        option
+                                        option 0
+                                        option 1
+                                        option 2
+                                        option 3
+                                        option 4
+                                        option 5
+                                        option 6
+                                        option 7
+                                        option 8
+                                        option 9
+                                        option 10
+                    .row
+                        .col-sm-6
+                            form
+                                div.form-group
+                                    label Rarity
+                                    select.form-control(ng-model="search.rarity")
+                                        option
+                                        option Free
+                                        option Common
+                                        option Rare
+                                        option Epic
+                                        option Legendary
+                        .col-sm-6
+                            form
+                                div.form-group
+                                    label Type
+                                    select.form-control(ng-model="search.type")
+                                        option
+                                        option Minion
+                                        option Spell
+                                        option Weapon
+                    .row
+                        .col-sm-6
+                            form
+                                div.form-group
+                                    label Set
+                                    select.form-control(ng-model="search.set")
+                                        option
+                                        option(value="CORE") Core
+                                        option(value="EXPERT1") Classic
+                                        option(value="NAXX") Naxxramas
+                                        option(value="GVG") Goblins vs. Gnomes
+                                        option(value="BRM") Blackrock Mountain
+                                        option(value="TGT") The Grand Tournament
+                                        option(value="LOE") League of Explorers
+                        .col-sm-6
+                            hr
+                            button.btn.btn-warning.btn-block(ng-click="search = {}")
+                                | Clear Search
+            hr
+            .row
+                .table-responsive
+                    table.table.table-condensed.table-striped
+                        thead
+                            th NAME
+                            th CLASS
+                            th MANA
+                            th ATK/HP
+                            th TYPE
+                            th SET
+                            th MECHANICS
+                            th TEXT
+                            th EXTRA
+                        tbody
+                            tr(ng-repeat="card in CardDB | filter:{set:search.set} | filter:{rarity:search.rarity} | filter:{type:search.type} | filter:{mechanics:search.mechanics} | filter:{cost:search.cost} | filter:search.text | filter:{name:search.name} | filter:{playerClass:search.class} | filter:{type:'!HERO'}")
+                                td
+                                    strong(class="{{ card.playerClass }}") {{ card.name }}
+                                td
+                                    strong(class="{{ card.playerClass }}") {{ card.playerClass }}
+                                td
+                                    strong {{ card.cost }}
+                                td
+                                    .badge(ng-if="card.attack != null")
+                                        span {{ card.attack }}
+                                        span &nbsp;/&nbsp;
+                                        span {{ card.health }}
+                                        span {{ card.durability }}
+                                td(class="{{ card.rarity }}")
+                                    .fa.fa-border.fa-lg.cursor-help(
+                                        ng-class="{'fa-bug':card.type==='MINION', 'fa-magic':card.type==='SPELL', 'fa-gavel':card.type==='WEAPON'}"
+                                        tooltip="{{ card.rarity }} {{ card.type }}", 
+                                        tooltip-append-to-body="true")
+                                td 
+                                    .fa.fa-border.fa-lg.cursor-help(
+                                        ng-class="{'fa-gear':card.set==='GVG', 'fa-shield':card.set==='TGT', 'fa-circle':card.set==='CORE', 'fa-circle-o':card.set==='EXPERT1', 'fa-map-o':card.set==='LOE', 'fi-skull':card.set==='NAXX', 'fa-fire':card.set==='BRM'}"
+                                        tooltip="{{ card.set }}", 
+                                        tooltip-append-to-body="true")
+                                td
+                                    span(ng-repeat="mechanic in card.mechanics")
+                                        .fa.fa-border.fa-lg.cursor-help(
+                                            ng-class="{'fi-skull':mechanic==='DEATHRATTLE', 'fa-shield':mechanic==='TAUNT', 'fa-balance-scale':mechanic==='INSPIRE', 'fa-magic':mechanic==='SPELLPOWER', 'fi-megaphone':mechanic==='BATTLECRY', 'fa-bullseye':mechanic==='SECRET', 'fa-bolt':mechanic==='OVERLOAD', 'fa-cloud':mechanic==='FREEZE', 'fa-plus':mechanic==='COMBO', 'fa-group':mechanic==='AURA', 'fa-eye-slash':mechanic==='STEALTH', 'fa-sun-o':mechanic==='DIVINE_SHIELD', 'fa-paw':mechanic==='ENRAGED', 'fa-mail-forward':mechanic==='CHARGE', 'fa-volume-off':mechanic==='SILENCE', 'fa-gavel':mechanic==='WINDFURY', 'fa-hand-stop-o':mechanic==='POISONOUS', 'fa-user-times':mechanic==='FORGETFUL'}"
+                                            tooltip="{{ mechanic }}", 
+                                            tooltip-append-to-body="true")
+                                td
+                                    span(ng-bind-html="card.text")
+                                td
+                                    .fa.fa-border.fa-lg.fa-hashtag.text-danger.cursor-help(tooltip-html-unsafe="{{ card.id }}", tooltip-append-to-body="true")                              
+                                    .fa.fa-border.fa-lg.fa-exclamation.text-info.cursor-help(tooltip-html-unsafe="{{ card.flavor }}", tooltip-append-to-body="true")                              
+                                    .fa.fa-border.fa-lg.fa-paint-brush.cursor-help(tooltip-html-unsafe="{{ card.artist }}", tooltip-append-to-body="true") 
+                                    .fa.fa-border.fa-lg.fa-unlock.cursor-help(ng-if="card.howToEarn", tooltip-html-unsafe="<h6>How To Earn</h6><hr>{{ card.howToEarn }}", tooltip-append-to-body="true")
+                                    .fa.fa-border.fa-lg.fa-unlock.text-warning.cursor-help(ng-if="card.howToEarnGolden", tooltip-html-unsafe="<h6>How To Earn Golden</h6><hr>{{ card.howToEarnGolden }}", tooltip-append-to-body="true") 
+                                    .fa.fa-lg.fa-code.cursor-help(tooltip-html-unsafe="{{ card }}", tooltip-append-to-body="true") 

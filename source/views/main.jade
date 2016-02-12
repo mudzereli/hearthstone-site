@@ -1,0 +1,155 @@
+// >> PAGE HEADER
+// ---------------------------------------
+.container-fluid.page-header
+  .container.relative
+    h1 
+      | Hearthstone Meta Deck Lists 
+      small
+        | {{ CurrentSeason }}
+    span.fix-top.fix-right
+      | Last Updated: 
+      .label.label-success
+        | {{ LastUpdateDate }}
+.container
+  .row
+    // >> META DECK LIST
+    // ---------------------------------------
+    .col-sm-5.col-md-4.noselect
+      .panel.panel-default
+        .panel-heading.text-center
+          strong
+            | {{ CurrentSeason }} Meta Decks
+            .glyphicon.glyphicon-question-sign.cursor-help.pull-right(
+                tooltip="These decks are ALL legend-worthy. They were either played by a pro to legend rank, or generally agreed upon by the community of being legend-capable.", 
+                tooltip-append-to-body="true")
+        .panel-body
+          ul.list-group
+            .div(ng-repeat="deck in Decks track by $index")
+              .list-group-item.cursor-pointer.deck-list-item(
+                  ng-class="{ 'selected-deck': deck == SelectedDeck }",
+                  ng-style="{'color': deck.ListFGColor, 'background-color': deck.ListBGColor}", 
+                  ng-click="SelectDeck($index)")
+                strong(ng-class="{'text-outline': deck == SelectedDeck }") 
+                  .glyphicon.glyphicon-star.cursor-help(ng-if="UpdatedRecently(deck)", tooltip="Updated Recently!")
+                  | &nbsp;
+                  | {{ deck.Name }} 
+                  span.pull-right
+                    .label.label-default
+                      | # {{ $index + 1 }}
+                .clearfix
+    // >> SELECTED DECK INFORMATION
+    // ---------------------------------------
+    .col-sm-7.col-md-8
+      .alert.alert-info.hidden-xs(ng-if="SelectedDeck == -1")
+        strong
+          | Select a Deck!
+        | &nbsp;Select a deck from the list to view more information about it.
+      .panel.panel-default(
+          ng-if="SelectedDeck != -1", 
+          ng-style="{ 'border-color': SelectedDeck.Class.BGColor }")
+        .panel-heading(ng-style="{'color': SelectedDeck.Class.FGColor, 'background-color': SelectedDeck.Class.BGColor }")
+          strong.text-outline
+            | {{ SelectedDeck.Name }} 
+          .badge.pull-right
+            | {{ SelectedDeck.Season }}
+        .panel-body
+          .col-md-8.col-lg-7
+            // SELECTED DECK - DESCRIPTION
+            h4.relative
+              | Deck Description:
+              small(style="position: absolute; bottom: 0px; right: 0px;")
+                a(href="", ng-click="show_full_descriptions = !show_full_descriptions")
+                  span(ng-if="show_full_descriptions")
+                    | hide &raquo;
+                  span(ng-if="!show_full_descriptions")
+                    | more &raquo;
+            ul
+              li
+                | Deck Source: 
+                strong
+                  | {{ SelectedDeck.Credit }}
+              li(ng-repeat="line in SelectedDeck.Description track by $index", 
+                ng-show="$index < 0 || show_full_descriptions")
+                | {{ line }}
+            hr
+            // SELECTED DECK - MULLIGAN SUGGESTIONS
+            h4.relative
+              | Mulligan Suggestions:
+              small(style="position: absolute; bottom: 0px; right: 0px;")
+                a(href="", ng-click="hide_mulligan_suggestions = !hide_mulligan_suggestions")
+                  span(ng-if="hide_mulligan_suggestions")
+                    | show &raquo;
+                  span(ng-if="!hide_mulligan_suggestions")
+                    | hide &raquo;
+            div.visible-xs(ng-hide="hide_mulligan_suggestions")
+              ul
+                li(ng-repeat="card in SelectedDeck.Mulligan")
+                  | {{ CardLookup(card[1]).name }}
+              .clearfix
+            div.hidden-xs(ng-hide="hide_mulligan_suggestions", style="margin-top: 90px;")
+              .col-sm-4.card-panel.relative(ng-repeat="card in SelectedDeck.Mulligan")
+                img.card-image(src="http://wow.zamimg.com/images/hearthstone/cards/enus/original/{{ CardLookup(card[1]).id }}.png", style="width: 120%; position: absolute; top: -15%; left: -10%;")
+                <!--[if !IE]><!-->
+                div.relative(ng-if="card[0] !== 'A'", style="position: absolute; top: 0px; left: 30px;")
+                    .badge.cursor-help(style="background-color: white;"
+                        tooltip-html-unsafe="<h5><strong>{{ card[1] }}</strong></h5><hr><h6><strong>Keep Against</strong></h6>{{ ClassArrayToList(card[0]) }}"
+                        tooltip-append-to-body="true"
+                        tooltip-placement="left")
+                      span(ng-repeat="class in card[0]")
+                        span(style="color: {{ class.BGColor }};") 
+                          | {{ class.ID }}
+                <!--<![endif]-->
+                <!--[if IE]>
+                h3.pull-right.glyphicon.glyphicon-question-sign.cursor-help(ng-if="card[0] !== 'A'", style="color: white; position: absolute; top: -20px; left: 30px;", tooltip-html-unsafe="<h5><strong>{{ card[1] }}</strong></h5><hr><h6><strong>Keep Against</strong></h6>{{ ClassArrayToList(card[0]) }}")
+                <![endif]-->
+                .clearfix
+              .clearfix
+            hr
+            // SELECTED DECK - MULLIGAN SUGGESTIONS
+            h4.relative
+              | Deck History:
+              small(style="position: absolute; bottom: 0px; right: 0px;")
+                a(href="", ng-click="hide_deck_history = !hide_deck_history")
+                  span(ng-if="hide_deck_history")
+                    | show &raquo;
+                  span(ng-if="!hide_deck_history")
+                    | hide &raquo;
+            table.table.table-striped(ng-hide="hide_deck_history")
+              tbody
+                tr 
+                  td 
+                    strong Updated:
+                  td 
+                    .label.pull-right(
+                        ng-class="{'label-success':!DeckNeedsUpdated(SelectedDeck), 'label-danger':DeckNeedsUpdated(SelectedDeck)}", 
+                        style="font-size: 0.9em;")
+                      | {{ GetFormattedUpdateTimeframe(SelectedDeck.Updated) }}
+                tr 
+                  td 
+                    strong Reviewed:
+                  td 
+                    .label.pull-right(
+                        ng-class="{'label-success':!DeckNeedsReviewed(SelectedDeck), 'label-danger':DeckNeedsReviewed(SelectedDeck)}", 
+                        style="font-size: 0.9em;")
+                      | {{ GetFormattedUpdateTimeframe(SelectedDeck.Reviewed) }}
+                tr 
+                  td 
+                    strong Added:
+                  td 
+                    .label.pull-right(
+                        ng-class="{'label-success':!DeckNeedsNewList(SelectedDeck), 'label-danger':DeckNeedsNewList(SelectedDeck)}", 
+                        style="font-size: 0.9em;")
+                      | {{ GetFormattedUpdateTimeframe(SelectedDeck.Added) }}
+            hr
+            // SELECTED DECK - DOWNLOAD FOR HDT
+            a.btn.btn-block.btn-primary(
+                href="resources/decks/{{ SelectedDeck.File }}.xml", 
+                download="{{ SelectedDeck.File }}.xml")
+              span.glyphicon.glyphicon-download.pull-left
+              strong 
+                | Download for HDT
+            hr.visible-xs.visible-sm
+          // SELECTED DECK - IMAGE
+          .col-md-4.col-lg-5
+            img.img-responsive.center-block(src="resources/decks/{{ SelectedDeck.File }}.png")
+              | {{ card }}

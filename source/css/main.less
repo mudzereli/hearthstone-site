@@ -1,0 +1,154 @@
+/* LESS variables */
+@footer-height: 45;
+@navbar-brand-width: 33; /* percentage */
+@background-url: 'resources/background.jpg';
+
+/* centered background image */
+body { 
+  background: url(@background-url) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 0;
+}
+
+/* sticky footer */
+* {
+    margin: 0;
+}
+html {
+    height: 100%;
+    body {
+        height: 100%;
+    }
+    .wrapper {
+        min-height: 100%;
+        margin: 0 auto @footer-height * -1px;
+    }
+    footer, .push {
+        height: @footer-height + 0px;
+    }
+    footer {
+        padding-top: 5px;
+    }
+}
+
+/* justified navbar */
+@media (min-width: 768px){
+    .navbar-header {
+        width: @navbar-brand-width + 0% !important;
+    }
+    .navbar-nav {
+        margin: 0 auto !important;
+        display: table !important;
+        table-layout: auto !important;
+        float: none !important;
+        width: 100% - @navbar-brand-width !important;
+    }
+    .navbar-nav>li {
+        display: table-cell !important;
+        float: none !important;
+        text-align: center !important;
+    }
+}
+
+.relative { position: relative; }
+.fix-top { position: absolute; top: 8px; }
+.fix-bottom { position: absolute; bottom: 8px; }
+.fix-left { position: absolute; left: 8px; }
+.fix-right { position: absolute; right: 8px; }
+
+.cursor-help
+    {
+        cursor: help;
+    }
+.cursor-pointer
+    {
+        cursor: pointer;
+    }
+.text-outline
+    {
+        text-shadow: 1px 1px 0px #4d4d4d, 1px -1px 0px #4d4d4d, -1px 1px 0px #4d4d4d, -1px -1px 0px #4d4d4d, 0px 1px 0px #4d4d4d, 0px -1px 0px #4d4d4d, 1px 0px 0px #4d4d4d, -1px 0px 0px #4d4d4d;
+    }
+
+// custom formatting for deck lists
+.selected-deck
+    {
+        border: 1px solid #4d4d4d;
+        //box-shadow: 0 0 5px 1px #0099cc;
+        z-index: 999;
+    }
+.deck-list-item
+    {
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+.deck-list-item:hover
+    {
+        border: 1px solid #4d4d4d;
+        //box-shadow: 0 0 5px 1px #0099cc;
+        z-index: 999;
+    }
+.card-panel
+    {
+        margin-top: -60px;
+        height: 190px;
+        //background-color: green;
+    }
+.card-image
+    {
+        width: 100%; 
+        position: absolute; 
+        top: -20px; 
+        left: 0px;
+    }
+.card-panel:hover
+    {
+        backface-visibility: hidden;
+        transform: scale(1.25) translateZ(0);
+        z-index: 999;
+    }
+
+//bootstrap customization
+.navbar
+    {
+        margin-bottom: 0;
+    }
+.page-header
+    {
+        margin-top: 0;
+        background-color: #ecf0f1;
+        //color: black;
+        //small { color: darken(black, 20%); }
+    }
+footer {
+    background-color: #b0bec5;
+}
+.panel-title
+    {
+        font-size: 1.2em;
+    }
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently not supported by any browser */
+}
+.LEGENDARY { color: orange; }
+.EPIC { color: purple; }
+.RARE { color: blue; }
+.COMMON { color: black; }
+.FREE { color: gray; }
+.MAGE    { color: #2196f3; }
+.PRIEST  { color: #757575; }
+.WARLOCK { color: #6a1b9a; }
+.SHAMAN  { color: #2980b9; }
+.WARRIOR { color: #b71c1c; }
+.DRUID   { color: #795548; }
+.ROGUE   { color: #212121; }
+.HUNTER  { color: #1b5e20; }
+.PALADIN { color: #ff9800; }
