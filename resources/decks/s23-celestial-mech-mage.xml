@@ -2,51 +2,51 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>FP1_001</Id>
+      <Id>GVG_082</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_619</Id>
+      <Id>GVG_013</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_012</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_024</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_003</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_085</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_006</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_002</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_044</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_102</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>CS2_203</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>NEW1_019</Id>
+      <Id>CS2_029</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>GVG_058</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>GVG_059</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>GVG_061</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_382</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_005</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>CS2_097</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>CS2_093</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>LOE_017</Id>
+      <Id>GVG_004</Id>
       <Count>2</Count>
     </Card>
     <Card>
@@ -54,43 +54,32 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>GVG_069</Id>
+      <Id>GVG_119</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_558</Id>
+      <Id>AT_096</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>GVG_060</Id>
+      <Id>LOE_003</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>FP1_012</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_016</Id>
+      <Id>EX1_559</Id>
       <Count>1</Count>
     </Card>
     <Card>
       <Id>GVG_110</Id>
       <Count>1</Count>
     </Card>
-    <Card>
-      <Id>EX1_354</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_383</Id>
-      <Count>1</Count>
-    </Card>
   </Cards>
-  <Class>Paladin</Class>
-  <HearthStatsId />
-  <LastEdited>2016-02-22T15:40:51.8575192-06:00</LastEdited>
+  <Class>Mage</Class>
+  <HearthStatsDeckVersionId>8424952</HearthStatsDeckVersionId>
+  <HearthStatsId>7500577</HearthStatsId>
+  <LastEdited>2016-02-22T16:55:46.0995751-06:00</LastEdited>
   <MissingCards />
-  <Url>http://www.hearthstonetopdecks.com/decks/midrange-paladin-deck-list/</Url>
+  <Url>http://www.hearthstonetopdeck.com/deck/5063/current/mech-mage-celestial</Url>
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -108,8 +97,11 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>c3517f16-988b-45dd-a13e-d7044332afd0</DeckId>
-  <Name>MIDRANGE</Name>
-  <SyncWithHearthStats xsi:nil="true" />
-  <Tags />
+  <DeckId>db6fef86-7711-4abd-9fde-1137f0efffec</DeckId>
+  <Name>MECH</Name>
+  <SyncWithHearthStats>true</SyncWithHearthStats>
+  <Tags>
+    <Tag>Aggro</Tag>
+  </Tags>
+  <HearthStatsIdForUploading>7500577</HearthStatsIdForUploading>
 </Deck>
