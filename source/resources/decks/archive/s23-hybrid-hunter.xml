@@ -2,23 +2,27 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>CS2_084</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>FP1_011</Id>
+      <Id>CS2_188</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_610</Id>
-      <Count>1</Count>
+      <Id>EX1_029</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_043</Id>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_611</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>BRM_013</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_554</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -39,7 +43,7 @@
     </Card>
     <Card>
       <Id>EX1_536</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>NEW1_031</Id>
@@ -54,7 +58,7 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>DS1_070</Id>
+      <Id>AT_087</Id>
       <Count>2</Count>
     </Card>
     <Card>
@@ -69,17 +73,13 @@
       <Id>EX1_534</Id>
       <Count>2</Count>
     </Card>
-    <Card>
-      <Id>GVG_110</Id>
-      <Count>1</Count>
-    </Card>
   </Cards>
   <Class>Hunter</Class>
-  <HearthStatsDeckVersionId>8377568</HearthStatsDeckVersionId>
-  <HearthStatsId>7458831</HearthStatsId>
-  <LastEdited>2016-02-21T23:31:38.3523289-06:00</LastEdited>
+  <HearthStatsDeckVersionId>8376686</HearthStatsDeckVersionId>
+  <HearthStatsId>7458051</HearthStatsId>
+  <LastEdited>2016-02-21T10:54:09.7938201-06:00</LastEdited>
   <MissingCards />
-  <Url>http://www.icy-veins.com/hearthstone/legendary-hunter-midrange-brm-deck</Url>
+  <Url>http://www.icy-veins.com/hearthstone/hunter-hybrid-tgt-deck</Url>
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -97,9 +97,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>0fdc5858-97b7-48a8-900d-5533778d6667</DeckId>
-  <Name>MIDRANGE</Name>
+  <DeckId>d73c6f09-3dc0-4264-8f09-d32b95e48242</DeckId>
+  <Name>HYBRID</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>7458831</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>7458051</HearthStatsIdForUploading>
 </Deck>

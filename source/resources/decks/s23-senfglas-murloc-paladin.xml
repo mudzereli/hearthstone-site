@@ -2,84 +2,80 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>CS2_084</Id>
+      <Id>FP1_001</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_619</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_173</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_096</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_058</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_061</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_382</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>FP1_011</Id>
+      <Id>EX1_507</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_610</Id>
+      <Id>CS2_097</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_093</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_595</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_017</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_062</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_611</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>BRM_013</Id>
+      <Id>EX1_284</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>FP1_002</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>CS2_203</Id>
+      <Id>FP1_012</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>NEW1_019</Id>
+      <Id>EX1_354</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>FP1_004</Id>
+      <Id>LOE_026</Id>
       <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_536</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>NEW1_031</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_539</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_538</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>DS1_070</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>GVG_096</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>FP1_030</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_534</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>GVG_110</Id>
-      <Count>1</Count>
     </Card>
   </Cards>
-  <Class>Hunter</Class>
-  <HearthStatsDeckVersionId>8377568</HearthStatsDeckVersionId>
-  <HearthStatsId>7458831</HearthStatsId>
-  <LastEdited>2016-02-21T23:31:38.3523289-06:00</LastEdited>
+  <Class>Paladin</Class>
+  <HearthStatsDeckVersionId>8414748</HearthStatsDeckVersionId>
+  <HearthStatsId>7491606</HearthStatsId>
+  <LastEdited>2016-02-22T11:50:26.8407734-06:00</LastEdited>
   <MissingCards />
-  <Url>http://www.icy-veins.com/hearthstone/legendary-hunter-midrange-brm-deck</Url>
+  <Url>http://www.hearthstonetopdecks.com/decks/senfglas-anyfin-can-happen-otk-paladin/</Url>
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -97,9 +93,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>0fdc5858-97b7-48a8-900d-5533778d6667</DeckId>
-  <Name>MIDRANGE</Name>
+  <DeckId>0cb66c60-235d-46da-82a1-d138a771a876</DeckId>
+  <Name>SENFGLAS MURLOC</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>7458831</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>7491606</HearthStatsIdForUploading>
 </Deck>

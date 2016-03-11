@@ -2,35 +2,27 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>CS2_084</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>FP1_011</Id>
+      <Id>AT_004</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_610</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_611</Id>
+      <Id>EX1_277</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>BRM_013</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>FP1_002</Id>
+      <Id>NEW1_012</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>CS2_203</Id>
-      <Count>1</Count>
+      <Id>GVG_001</Id>
+      <Count>2</Count>
     </Card>
     <Card>
-      <Id>NEW1_019</Id>
+      <Id>CS2_024</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_003</Id>
       <Count>2</Count>
     </Card>
     <Card>
@@ -38,23 +30,27 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_536</Id>
+      <Id>EX1_608</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>NEW1_031</Id>
+      <Id>CS2_023</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_539</Id>
+      <Id>FP1_018</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_294</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>BRM_002</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_538</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>DS1_070</Id>
+      <Id>CS2_029</Id>
       <Count>2</Count>
     </Card>
     <Card>
@@ -62,24 +58,24 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>FP1_030</Id>
-      <Count>1</Count>
+      <Id>EX1_284</Id>
+      <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_534</Id>
-      <Count>2</Count>
+      <Id>EX1_559</Id>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>GVG_110</Id>
       <Count>1</Count>
     </Card>
   </Cards>
-  <Class>Hunter</Class>
-  <HearthStatsDeckVersionId>8377568</HearthStatsDeckVersionId>
-  <HearthStatsId>7458831</HearthStatsId>
-  <LastEdited>2016-02-21T23:31:38.3523289-06:00</LastEdited>
+  <Class>Mage</Class>
+  <HearthStatsDeckVersionId>8408703</HearthStatsDeckVersionId>
+  <HearthStatsId>7486281</HearthStatsId>
+  <LastEdited>2016-02-22T08:39:58.7981268-06:00</LastEdited>
   <MissingCards />
-  <Url>http://www.icy-veins.com/hearthstone/legendary-hunter-midrange-brm-deck</Url>
+  <Url>http://www.hearthstonetopdeck.com/deck/5164/current/mage-tempo-naiman</Url>
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -97,9 +93,11 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>0fdc5858-97b7-48a8-900d-5533778d6667</DeckId>
-  <Name>MIDRANGE</Name>
+  <DeckId>27a416c0-7dbd-425a-aa81-cc23e7bb21a8</DeckId>
+  <Name>TEMPO</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
-  <Tags />
-  <HearthStatsIdForUploading>7458831</HearthStatsIdForUploading>
+  <Tags>
+    <Tag>Mid-Range</Tag>
+  </Tags>
+  <HearthStatsIdForUploading>7486281</HearthStatsIdForUploading>
 </Deck>

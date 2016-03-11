@@ -2,84 +2,88 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>CS2_084</Id>
+      <Id>EX1_607</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_108</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_400</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_106</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_392</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_391</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>FP1_011</Id>
+      <Id>EX1_402</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_610</Id>
+      <Id>FP1_024</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_007</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_022</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>FP1_021</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_147</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_611</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>BRM_013</Id>
+      <Id>NEW1_011</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>FP1_002</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>CS2_203</Id>
+      <Id>FP1_015</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>NEW1_019</Id>
+      <Id>BRM_019</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>FP1_004</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_536</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>NEW1_031</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_539</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_538</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>DS1_070</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>GVG_096</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>FP1_030</Id>
+      <Id>FP1_014</Id>
       <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_534</Id>
-      <Count>2</Count>
     </Card>
     <Card>
       <Id>GVG_110</Id>
       <Count>1</Count>
     </Card>
+    <Card>
+      <Id>LOE_009</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_414</Id>
+      <Count>1</Count>
+    </Card>
   </Cards>
-  <Class>Hunter</Class>
-  <HearthStatsDeckVersionId>8377568</HearthStatsDeckVersionId>
-  <HearthStatsId>7458831</HearthStatsId>
-  <LastEdited>2016-02-21T23:31:38.3523289-06:00</LastEdited>
+  <Class>Warrior</Class>
+  <HearthStatsDeckVersionId>8411425</HearthStatsDeckVersionId>
+  <HearthStatsId>7488667</HearthStatsId>
+  <LastEdited>2016-02-22T19:23:45.5464504-06:00</LastEdited>
   <MissingCards />
-  <Url>http://www.icy-veins.com/hearthstone/legendary-hunter-midrange-brm-deck</Url>
+  <Url>http://www.hearthstonetopdecks.com/decks/cross7224s-season-23-feugen-stalagg-patron-warrior/</Url>
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -97,9 +101,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>0fdc5858-97b7-48a8-900d-5533778d6667</DeckId>
-  <Name>MIDRANGE</Name>
+  <DeckId>4429718c-fc72-48e8-a7f8-5dd1deab1b30</DeckId>
+  <Name>CROSS7224 PATRON</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>7458831</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>7488667</HearthStatsIdForUploading>
 </Deck>

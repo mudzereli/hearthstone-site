@@ -2,23 +2,23 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>CS2_084</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>FP1_011</Id>
+      <Id>CS2_188</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_610</Id>
+      <Id>EX1_008</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_611</Id>
+      <Id>EX1_029</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>BRM_013</Id>
+      <Id>LOE_076</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>CS2_146</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -34,27 +34,31 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>FP1_004</Id>
+      <Id>GVG_058</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_536</Id>
+      <Id>GVG_059</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>NEW1_031</Id>
+      <Id>EX1_349</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_539</Id>
+      <Id>GVG_061</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_538</Id>
+      <Id>CS2_092</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>DS1_070</Id>
+      <Id>CS2_093</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_017</Id>
       <Count>2</Count>
     </Card>
     <Card>
@@ -66,20 +70,16 @@
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_534</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
       <Id>GVG_110</Id>
       <Count>1</Count>
     </Card>
   </Cards>
-  <Class>Hunter</Class>
-  <HearthStatsDeckVersionId>8377568</HearthStatsDeckVersionId>
-  <HearthStatsId>7458831</HearthStatsId>
-  <LastEdited>2016-02-21T23:31:38.3523289-06:00</LastEdited>
+  <Class>Paladin</Class>
+  <HearthStatsDeckVersionId>8419667</HearthStatsDeckVersionId>
+  <HearthStatsId>7495973</HearthStatsId>
+  <LastEdited>2016-02-22T14:18:02.9223123-06:00</LastEdited>
   <MissingCards />
-  <Url>http://www.icy-veins.com/hearthstone/legendary-hunter-midrange-brm-deck</Url>
+  <Url>http://www.hearthstonetopdeck.com/deck/5161/current/paladin-aggro-bunnyhoppor</Url>
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -97,9 +97,11 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>0fdc5858-97b7-48a8-900d-5533778d6667</DeckId>
-  <Name>MIDRANGE</Name>
+  <DeckId>573cb6c8-1238-4c71-b816-55ed0ca0c395</DeckId>
+  <Name>BUNNYHOPPOR AGGRO</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
-  <Tags />
-  <HearthStatsIdForUploading>7458831</HearthStatsIdForUploading>
+  <Tags>
+    <Tag>Aggro</Tag>
+  </Tags>
+  <HearthStatsIdForUploading>7495973</HearthStatsIdForUploading>
 </Deck>

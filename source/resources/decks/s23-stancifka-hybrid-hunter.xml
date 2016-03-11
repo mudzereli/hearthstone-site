@@ -6,11 +6,15 @@
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>FP1_011</Id>
+      <Id>CS2_188</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_610</Id>
+      <Id>EX1_029</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>FP1_011</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -19,15 +23,11 @@
     </Card>
     <Card>
       <Id>BRM_013</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>FP1_002</Id>
       <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>CS2_203</Id>
-      <Count>1</Count>
     </Card>
     <Card>
       <Id>NEW1_019</Id>
@@ -54,7 +54,7 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>DS1_070</Id>
+      <Id>AT_087</Id>
       <Count>2</Count>
     </Card>
     <Card>
@@ -66,20 +66,16 @@
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_534</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>GVG_110</Id>
+      <Id>EX1_028</Id>
       <Count>1</Count>
     </Card>
   </Cards>
   <Class>Hunter</Class>
-  <HearthStatsDeckVersionId>8377568</HearthStatsDeckVersionId>
-  <HearthStatsId>7458831</HearthStatsId>
-  <LastEdited>2016-02-21T23:31:38.3523289-06:00</LastEdited>
+  <HearthStatsDeckVersionId>8409789</HearthStatsDeckVersionId>
+  <HearthStatsId>7487244</HearthStatsId>
+  <LastEdited>2016-02-22T09:15:02.9694785-06:00</LastEdited>
   <MissingCards />
-  <Url>http://www.icy-veins.com/hearthstone/legendary-hunter-midrange-brm-deck</Url>
+  <Url>http://www.hearthstonetopdecks.com/decks/stancifkas-hcl-s-2-hybrid-hunter/</Url>
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -97,9 +93,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>0fdc5858-97b7-48a8-900d-5533778d6667</DeckId>
-  <Name>MIDRANGE</Name>
+  <DeckId>b6cf055b-5dce-47cc-985c-9278e4b38582</DeckId>
+  <Name>HYBRID</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>7458831</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>7487244</HearthStatsIdForUploading>
 </Deck>

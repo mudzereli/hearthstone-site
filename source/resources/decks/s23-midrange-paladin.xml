@@ -87,9 +87,8 @@
     </Card>
   </Cards>
   <Class>Paladin</Class>
-  <HearthStatsDeckVersionId>7865943</HearthStatsDeckVersionId>
-  <HearthStatsId>7006356</HearthStatsId>
-  <LastEdited>2016-02-07T00:01:55.6925291-06:00</LastEdited>
+  <HearthStatsId />
+  <LastEdited>2016-02-22T15:40:51.8575192-06:00</LastEdited>
   <MissingCards />
   <Url>http://www.hearthstonetopdecks.com/decks/midrange-paladin-deck-list/</Url>
   <Version>
@@ -109,9 +108,8 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>3a3c140f-6abe-48b0-b784-a812c37856c7</DeckId>
+  <DeckId>c3517f16-988b-45dd-a13e-d7044332afd0</DeckId>
   <Name>MIDRANGE</Name>
-  <SyncWithHearthStats>true</SyncWithHearthStats>
+  <SyncWithHearthStats xsi:nil="true" />
   <Tags />
-  <HearthStatsIdForUploading>7006356</HearthStatsIdForUploading>
 </Deck>

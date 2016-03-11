@@ -76,7 +76,7 @@ angular.module('AngularApp', [
 }])
 /* Main Application Controller */
 .controller('AppController', ['$scope', function($scope){
-    $scope.LastUpdateDate = moment("20160215 07:21:00","YYYYMMDD HH:mm:SS").fromNow();
+    $scope.LastUpdateDate = moment("20160222 17:05:00","YYYYMMDD HH:mm:SS").fromNow();
     var today = new Date();
     var season1 = new Date(2014,01,01);
     $scope.CurrentSeason = "Season " + monthDiff(season1,today);
@@ -95,13 +95,11 @@ angular.module('AngularApp', [
       Paladin: {ID:"P", Name:"Paladin", FGColor: "#ffffff", BGColor: "#ff9800"}};
     $scope.Decks = [
       { Name:"Secret Paladin",
-        Added:"2016-02-02T08:01:00.000-06:00",
-        Reviewed:"2016-02-12T20:02:00.000-06:00",
-        Updated:"2016-02-02T08:01:00.000-06:00",
-        Credit:"Tempostorm",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-22T07:14:00.000-06:00",
         Season:"Season 23",
         Class:$scope.Classes.Paladin,
-        File:"s22-secret-paladin-ragnaros",
+        Files:[["Chakki - NA Prelims","s23-chakki-secret-paladin","2016-02-22T07:14:00.000-06:00"],["Ostkaka - Champ","s22-secret-paladin-ragnaros","2016-02-02T08:01:00.000-06:00"]],
         Mulligan:[
           ["A","Secretkeeper"],
           ["A","Shielded Minibot"],
@@ -113,33 +111,12 @@ angular.module('AngularApp', [
           "Play minions on curve & keep loose board control.",
           "Only play Mysterious Challenger when you have a decent board state.",
           "Can swap Loatheb for Sludge Belcher depending on meta."]},
-      { Name:"Midrange Druid",
-        Added:"2016-01-31T20:00:00.000-06:00",
-        Reviewed:"2016-02-12T20:16:00.000-06:00",
-        Updated:"2016-01-31T20:00:00.000-06:00",
-        Credit:"HearthstoneTopDeck",
-        Season:"Season 23",
-        Class:$scope.Classes.Druid,
-        File:"s22-midrange-fast-druid",
-        Mulligan:[
-          ["A","Innervate"],
-          ["A","Living Roots"],
-          ["A","Wild Growth"],
-          ["A","Shade of Naxxramas"],
-          [[$scope.Classes.Druid, $scope.Classes.Shaman, $scope.Classes.Mage, $scope.Classes.Priest],"Wrath"],
-          [[$scope.Classes.Priest, $scope.Classes.Warrior],"Piloted Shredder"]],
-        Description:[
-          "Get your opponent to 14 as quickly as possible and finish them with the Force of Nature and Savage Roar combo.",
-          "Don't waste your Force of Nature or Savage Roars.",
-          "Can swap 1x Azure Drake with Harrison Jones if facing lots of Weapon Classes."]},
       { Name:"Zoo Lock",
-        Added:"2016-02-01T08:16:00.000-06:00",
-        Reviewed:"2016-02-12T21:12:00.000-06:00",
-        Updated:"2016-02-06T19:22:00.000-06:00",
-        Credit:"Sl-i StarLeague Final #1 - Robin",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-21T16:48:00.000-06:00",
         Season:"Season 23",
         Class:$scope.Classes.Warlock,
-        File:"s23-robin-zoo-lock",
+        Files:[["Chakki - NA Prelims","s23-chakki-zoo-lock","2016-02-21T16:48:00.000-06:00"],["Robin - Starleague","s23-robin-zoo-lock","2016-02-21T16:48:00.000-06:00"]],
         Mulligan:[
           ["A","Voidwalker"],
           ["A","Flame Imp"],
@@ -150,14 +127,29 @@ angular.module('AngularApp', [
         Description:[
           "Play minions, draw cards, go HAM.",
           "Only make very favorable trades."]},
+      { Name:"Midrange Druid",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-21T18:29:00.000-06:00",
+        Season:"Season 23",
+        Class:$scope.Classes.Druid,
+        Files:[["BunnyHoppor - EU Winter Prelims","s23-bunnyhopper-midrange-druid","2016-01-31T20:00:00.000-06:00"]],
+        Mulligan:[
+          ["A","Innervate"],
+          ["A","Living Roots"],
+          ["A","Wild Growth"],
+          ["A","Darnassus Aspirant"],
+          ["A","Shade of Naxxramas"],
+          [[$scope.Classes.Druid, $scope.Classes.Shaman, $scope.Classes.Mage, $scope.Classes.Priest],"Wrath"]],
+        Description:[
+          "Get your opponent to 14 as quickly as possible and finish them with the Force of Nature and Savage Roar combo.",
+          "Don't waste your Force of Nature or Savage Roars.",
+          "Can swap 1x Azure Drake with Harrison Jones if facing lots of Weapon Classes."]},
       { Name:"Tempo Mage",
-        Added:"2016-01-31T20:00:00.000-06:00",
-        Reviewed:"2016-02-12T20:40:00.000-06:00",
-        Updated:"2016-02-06T18:07:00.000-06:00",
-        Credit:"Pro Player TwoBiers",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-22T07:41:00.000-06:00",
         Season:"Season 23",
         Class:$scope.Classes.Mage,
-        File:"s23-twobiers-tempo-mage",
+        Files:[["TwoBiers - Legend","s23-twobiers-tempo-mage","2016-01-31T20:00:00.000-06:00"],["Naiman - EU Prelims","s23-naiman-tempo-mage","2016-02-22T07:41:00.000-06:00"]],
         Mulligan:[
           ["A","Mana Wyrm"],
           ["A","Mad Scientist"],
@@ -170,34 +162,48 @@ angular.module('AngularApp', [
           "Play your Flamewaker / Sorcerer's Apprentice when you can get good value from them.",
           "Adjust secrets between Counterspell, Duplicate, and Mirror Entity as needed.",
           "Swap Water Elemental with Piloted Shredder if not many Weapon Classes in meta."]},
+      { Name:"Aggro Druid",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-21T23:57:00.000-06:00",
+        Season:"Season 23",
+        Class:$scope.Classes.Druid,
+        Files:[["Chakki - NA Winter Prelims","s23-chakki-aggro-druid","2016-02-21T23:57:00.000-06:00"]],
+        Mulligan:[
+          ["A","Innervate"],
+          ["A","Living Roots"],
+          ["A","Leper Gnome"],
+          ["A","Darnassus Aspirant"],
+          ["A","Knife Juggler"],
+          ["A","Mounted Raptor"]],
+        Description:[
+          "Get your opponent to 14 as quickly as possible and finish them with the Force of Nature and Savage Roar combo.",
+          "Don't waste your Force of Nature or Savage Roars.",
+          "Can swap 1x Azure Drake with Harrison Jones if facing lots of Weapon Classes."]},
       { Name:"Control Warrior",
-        Added:"2016-02-01T08:34:00.000-06:00",
-        Reviewed:"2016-02-12T21:29:00.000-06:00",
-        Updated:"2016-02-01T08:34:00.000-06:00",
-        Credit:"Pro Player VLPS",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-21T23:04:00.000-06:00",
         Season:"Season 23",
         Class:$scope.Classes.Warrior,
-        File:"s22-vlps-control-warrior",
+        Files:[["Fibonacci - NA Prelims","s23-fibonacci-control-warrior","2016-02-22T08:34:00.000-06:00"],["VLPS - Legend","s22-vlps-control-warrior","2016-02-01T08:34:00.000-06:00",[["Jeweled Scarab",["A","Cruel Taskmaster"]]]]],
         Mulligan:[
           ["A","Fiery War Axe"],
           ["A","Armorsmith"],
+          ["A","Jeweled Scarab"],
           ["A","Acolyte of Pain"],
           ["A","Death's Bite"],
-          [[$scope.Classes.Priest,$scope.Classes.Rogue,$scope.Classes.Warlock],"Execute"],
-          [[$scope.Classes.Priest,$scope.Classes.Warrior,$scope.Classes.Rogue],"Justicar Trueheart"]],
+          [[$scope.Classes.Priest,$scope.Classes.Rogue,$scope.Classes.Warlock],"Execute"]],
+          //[[$scope.Classes.Priest,$scope.Classes.Warrior,$scope.Classes.Rogue],"Justicar Trueheart"]],
         Description:[
           "Play semi-aggro but keep control of the board.",
           "Aim to get as much value out of your cards as possible.",
           "Sometimes its best to just Armor Up! and pass turn.",
           "Don't waste your Grommash Hellscream."]},
       { Name:"Control Priest",
-        Added:"2016-01-31T20:00:00.000-06:00",
-        Reviewed:"2016-02-12T20:44:00.000-06:00",
-        Updated:"2016-01-31T20:00:00.000-06:00",
-        Credit:"Pro Player Zetalot",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-22T07:00:00.000-06:00",
         Season:"Season 23",
         Class:$scope.Classes.Priest,
-        File:"s22-zetalot-control-priest",
+        Files:[["Zetalot - Streamer","s22-zetalot-control-priest","2016-01-31T20:00:00.000-06:00"],["Zetalot - Streamer","s22-zetalot-resurrect-priest","2016-02-22T07:00:00.000-06:00",[["Museum Curator",["A","Resurrect"]]]]],
         Mulligan:[
           ["A","Zombie Chow"],
           ["A","Northshire Cleric"],
@@ -210,38 +216,16 @@ angular.module('AngularApp', [
           "Save Entomb for painful threats like Sylvanas, Ysera, Tirion Fordring, etc.",
           "Focus primarily on board control, but don't waste cards.",
           "Can swap 2xThoughtsteals out for 1xSludge Belcher and 1xCabal Shadow Priest vs aggro meta."]},
-      { Name:"Face Hunter",
-        Added:"2016-01-29T20:00:00.000-06:00",
-        Reviewed:"2016-02-12T21:47:00.000-06:00",
-        Updated:"2016-01-29T20:00:00.000-06:00",
-        Credit:"TempoStorm",
-        Season:"Season 23",
-        Class:$scope.Classes.Hunter,
-        File:"s22-standard-face-hunter",
-        Mulligan:[
-          ["A","Leper Gnome"],
-          ["A","Mad Scientist"],
-          ["A","Worgen Infiltrator"],
-          ["A","Animal Companion"],
-          ["A","Unleash the Hounds"],
-          ["A","Knife Juggler"]],
-        Description:[
-          "Can be great in certain meta conditions, poor in others, but games are fast.",
-          "Think about playing cards vs. using hero power each turn.",
-          "Don't throw minions like Knife Juggler that don't trade well onto a bad board.",
-          "Face never trade! SMOrc"]},
       { Name:"Freeze Mage",
-        Added:"2016-01-31T20:00:00.000-06:00",
-        Reviewed:"2016-02-12T20:41:00.000-06:00",
-        Updated:"2016-02-06T18:29:00.000-06:00",
-        Credit:"Sl-i StarLeague Final #4 - Dog",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-21T23:22:00.000-06:00",
         Season:"Season 23",
         Class:$scope.Classes.Mage,
-        File:"s23-dog-freeze-mage",
+        Files:[["Fibonacci - NA Prelims","s23-fibonacci-malygos-freeze-mage","2016-02-21T23:22:00.000-06:00"],["Dog - Legend","s23-dog-freeze-mage","2016-01-31T20:00:00.000-06:00"]],
         Mulligan:[
           ["A","Mad Scientist"],
           ["A","Loot Hoarder"],
-          ["A","Acolyte of Pain"],
+          ["A","Coldlight Oracle"],
           ["A","Arcane Intellect"],
           ["A","Doomsayer"],
           [[$scope.Classes.Mage,$scope.Classes.Druid,$scope.Classes.Priest,$scope.Classes.Shaman],"Frostbolt"]],
@@ -254,13 +238,11 @@ angular.module('AngularApp', [
           "Can swap 1x Loot Hoarder and 1x Acolyte of Pain if card draw feels light",
           "Can also swap Pyroblast for Malygos in heavy control meta."]},
       { Name:"Oil Rogue",
-        Added:"2016-02-01T08:15:00.000-06:00",
-        Reviewed:"2016-02-12T21:25:00.000-06:00",
-        Updated:"2016-02-06T19:34:00.000-06:00",
-        Credit:"HearthstoneTopDeck",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-22T07:05:00.000-06:00",
         Season:"Season 23",
         Class:$scope.Classes.Rogue,
-        File:"s23-oil-rogue",
+        Files:[["Pokrovac - EU Winter Prelims","s23-pokrovac-oil-rogue","2016-02-22T09:05:00.000-06:00"]],
         Mulligan:[
           ["A","Backstab"],
           ["A","Deadly Poison"],
@@ -271,88 +253,12 @@ angular.module('AngularApp', [
         Description:[
           "Combo your opponent down with Deadly Poison + Tinker's Sharpsword Oil + Blade Flurry.",
           "Don't overcommit to killing if you know your opponent can heal."]},
-      { Name:"Patron Warrior",
-        Added:"2016-02-01T07:52:00.000-06:00",
-        Reviewed:"2016-02-12T21:06:00.000-06:00",
-        Updated:"2016-02-06T09:06:00.000-06:00",
-        Credit:"Pro Player StrifeCro",
-        Season:"Season 23",
-        Class:$scope.Classes.Warrior,
-        File:"s23-strifecro-patron-warrior",
-        Mulligan:[
-          ["A","Fiery War Axe"],
-          ["A","Armorsmith"],
-          ["A","Acolyte of Pain"],
-          ["A","Death's Bite"],
-          [[$scope.Classes.Priest, $scope.Classes.Rogue, $scope.Classes.Warlock, $scope.Classes.Warrior],"Kor'kron Elite"],
-          [[$scope.Classes.Priest, $scope.Classes.Rogue, $scope.Classes.Warlock],"Execute"]],
-        Description:[
-          "Mulligan aggressively for Fiery War Axe.",
-          "Aim for T4 Death's Bite, T5 Patron + Inner Rage + Death's Bite Break",
-          "Save Grommash Hellscream as finisher, don't waste him.",
-          "Can swap Korkron Elite / Loatheb out for Piloted Shredders if meta permits."]},
-      { Name:"Midrange Hunter",
-        Added:"2016-01-28T20:00:00.000-06:00",
-        Reviewed:"2016-02-12T21:38:00.000-06:00",
-        Updated:"2016-02-06T20:43:00.000-06:00",
-        Credit:"HearthstoneTopDeck",
-        Season:"Season 23",
-        Class:$scope.Classes.Hunter,
-        File:"s23-midrange-hunter",
-        Mulligan:[
-          ["A","Webspinner"],
-          ["A","Mad Scientist"],
-          ["A","Haunted Creeper"],
-          ["A","Animal Companion"],
-          ["A","Unleash the Hounds"],
-          ["A","Knife Juggler"]],
-        Description:[
-          "Play minions on curve and go HAM.",
-          "Trade if it's necessary or very favorable."]},
-      { Name:"Reno Control Lock",
-        Added:"2016-01-28T20:00:00.000-06:00",
-        Reviewed:"2016-02-12T21:25:00.000-06:00",
-        Updated:"2016-01-28T20:00:00.000-06:00",
-        Credit:"Pro Player StrifeCro",
-        Season:"Season 23",
-        Class:$scope.Classes.Warlock,
-        File:"s22-reno-control-lock",
-        Mulligan:[
-          ["A","Zombie Chow"],
-          ["A","Dark Peddler"],
-          ["A","Imp Gang Boss"],
-          [[$scope.Mage,$scope.Druid,$scope.Priest],"Darkbomb"],
-          [[$scope.Classes.Warrior,$scope.Classes.Paladin,$scope.Classes.Hunter],"Acidic Swamp Ooze"],
-          [[$scope.Classes.Hunter,$scope.Classes.Shaman],"Reno Jackson"]],
-        Description:[
-          "Finish against aggro by wearing them out, and control by spamming infernals as Lord Jaraxxus",
-          "Relies heavily on board control and card draw"]},
-      { Name:"Reno Combo Lock",
-        Added:"2016-01-31T20:00:00.000-06:00",
-        Reviewed:"2016-02-12T20:25:00.000-06:00",
-        Updated:"2016-02-06T17:49:00.000-06:00",
-        Credit:"Sl-i StarLeague Final #2 - Cipher",
-        Season:"Season 23",
-        Class:$scope.Classes.Warlock,
-        File:"s23-cipher-reno-combo-lock",
-        Mulligan:[
-          ["A","Zombie Chow"],
-          ["A","Mortal Coil"],
-          ["A","Imp Gang Boss"],
-          ["A","Dark Peddler"],
-          [[$scope.Classes.Warrior, $scope.Classes.Paladin, $scope.Classes.Hunter], "Acidic Swamp Ooze"],
-          [[$scope.Classes.Hunter, $scope.Classes.Shaman, $scope.Classes.Mage],"Reno Jackson"]],
-        Description:[
-          "Whittle your opponent away until you get your combo pieces.",
-          "Finish them with some variant of Leeroy Jenkins + Abusive + Power Overwhelming + Faceless Manipulator."]},
       { Name:"Aggro Shaman",
-        Added:"2016-01-28T20:00:00.000-06:00",
-        Reviewed:"2016-02-12T21:41:00.000-06:00",
-        Updated:"2016-01-28T20:00:00.000-06:00",
-        Credit:"Pro Player Demigod",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-21T23:49:00.000-06:00",
         Season:"Season 23",
         Class:$scope.Classes.Shaman,
-        File:"s22-demigod-aggro-shaman",
+        Files:[["Chakki - NA Winter Prelims","s23-chakki-aggro-shaman","2016-01-28T20:00:00.000-06:00"]],
         Mulligan:[
           ["A","Leper Gnome"],
           ["A","Tunnel Trogg"],
@@ -365,14 +271,81 @@ angular.module('AngularApp', [
           "Don't trade unless necessary and don't waste your burn.",
           "Save Rockbiter to combo with Doomhammer.",
           "Can replace Flame Juggler with Knife Juggler if meta permits."]},
+      { Name:"Face Hunter",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-22T07:24:00.000-06:00",
+        Season:"Season 23",
+        Class:$scope.Classes.Hunter,
+        Files:[["Stancifka - NA Prelims","s23-stancifka-hybrid-hunter","2016-02-22T07:24:00.000-06:00"],["TempoStorm","s22-standard-face-hunter","2016-01-29T20:00:00.000-06:00",[["Webspinner",["A","Worgen Infiltrator"]]]]],
+        Mulligan:[
+          ["A","Leper Gnome"],
+          ["A","Mad Scientist"],
+          ["A","Webspinner"],
+          ["A","Animal Companion"],
+          ["A","Unleash the Hounds"],
+          ["A","Knife Juggler"]],
+        Description:[
+          "Can be great in certain meta conditions, poor in others, but games are fast.",
+          "Think about playing cards vs. using hero power each turn.",
+          "Don't throw minions like Knife Juggler that don't trade well onto a bad board.",
+          "Face never trade! SMOrc"]},
+      { Name:"Reno Lock",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-21T23:39:00.000-06:00",
+        Season:"Season 23",
+        Class:$scope.Classes.Warlock,
+        Files:[["AlSkyHigh - NA Prelims","s23-alskyhigh-reno-control-lock","2016-02-21T23:39:00.000-06:00"],["Cipher - Sl-I","s23-cipher-reno-combo-lock","2016-01-31T20:00:00.000-06:00",[["Doomsayer",[[$scope.Classes.Warrior,$scope.Classes.Hunter,$scope.Classes.Shaman,$scope.Classes.Paladin],"Acidic Swamp Ooze"]]]]],
+        Mulligan:[
+          ["A","Zombie Chow"],
+          ["A","Dark Peddler"],
+          ["A","Imp Gang Boss"],
+          [[$scope.Mage,$scope.Druid,$scope.Priest],"Darkbomb"],
+          [[$scope.Classes.Hunter,$scope.Classes.Shaman,$scope.Classes.Paladin],"Doomsayer"],
+          [[$scope.Classes.Hunter,$scope.Classes.Shaman],"Reno Jackson"]],
+        Description:[
+          "Win as Control Reno Lock by spamming infernals as Jaraxxus.",
+          "Win as Combo Reno Lock by comboing Leeroy + Abusive + Brann + Faceless + etc.",
+          "Relies heavily on board control and card draw"]},
+      { Name:"Midrange Hunter",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-21T23:30:00.000-06:00",
+        Season:"Season 23",
+        Class:$scope.Classes.Hunter,
+        Files:[["Icy Veins","s23-midrange-hunter","2016-01-28T20:00:00.000-06:00"]],
+        Mulligan:[
+          ["A","Webspinner"],
+          ["A","Mad Scientist"],
+          ["A","Haunted Creeper"],
+          ["A","Animal Companion"],
+          ["A","Unleash the Hounds"],
+          ["A","Knife Juggler"]],
+        Description:[
+          "Play minions on curve and go HAM.",
+          "Trade if it's necessary or very favorable."]},
+      { Name:"Patron Warrior",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-22T07:18:00.000-06:00",
+        Season:"Season 23",
+        Class:$scope.Classes.Warrior,
+        Files:[["BunnyHoppor - Prelims","s23-bunnyhoppor-patron-warrior","2016-02-22T07:18:00.000-06:00"],["Cross7224 - Pro","s23-cross7224-patron-warrior","2016-02-22T07:18:00.000-06:00"]],
+        Mulligan:[
+          ["A","Fiery War Axe"],
+          ["A","Armorsmith"],
+          ["A","Acolyte of Pain"],
+          ["A","Death's Bite"],
+          [[$scope.Classes.Priest, $scope.Classes.Rogue, $scope.Classes.Warlock, $scope.Classes.Warrior],"Kor'kron Elite"],
+          [[$scope.Classes.Priest, $scope.Classes.Rogue, $scope.Classes.Warlock],"Execute"]],
+        Description:[
+          "Mulligan aggressively for Fiery War Axe.",
+          "Aim for T4 Death's Bite, T5 Patron + Inner Rage + Death's Bite Break",
+          "Save Grommash Hellscream as finisher, don't waste him.",
+          "Can swap Korkron Elite / Loatheb out for Piloted Shredders if meta permits."]},
       { Name:"Murloc Paladin",
-        Added:"2016-02-01T08:34:00.000-06:00",
-        Reviewed:"2016-02-12T21:30:00.000-06:00",
-        Updated:"2016-02-01T08:34:00.000-06:00",
-        Credit:"Pro Player Kolento",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-22T07:34:00.000-06:00",
         Season:"Season 23",
         Class:$scope.Classes.Paladin,
-        File:"s23-kolento-murloc-paladin",
+        Files:[["Neviilz - Pro","s23-neviilz-murloc-paladin","2016-02-22T07:34:00.000-06:00"],["Senfglas - Pro","s23-senfglas-murloc-paladin","2016-02-22T07:34:00.000-06:00",[["Doomsayer",["A","Loot Hoarder"]]]]],
         Mulligan:[
           ["A","Bluegill Warrior"],
           ["A","Doomsayer"],
@@ -384,34 +357,14 @@ angular.module('AngularApp', [
           "Use murlocs to whittle your opponent down and remove their creatures.",
           "Sustain with Antique Healbot and Lay on Hands while drawing into combo.",
           "OTK them with Anyfin Can Happen after filling grave with enough murlocs to kill them."]},
-      { Name:"Miracle Rogue",
-        Added:"2016-02-06T23:46:00.000-06:00",
-        Reviewed:"2016-02-12T21:48:00.000-06:00",
-        Updated:"2016-02-06T23:46:00.000-06:00",
-        Credit:"Pro Player SuperJJ",
-        Season:"Season 23",
-        Class:$scope.Classes.Rogue,
-        File:"s23-miracle-rogue",
-        Mulligan:[
-          ["A","Backstab"],
-          ["A","Deadly Poison"],
-          ["A","SI:7 Agent"],
-          [[$scope.Classes.Druid,$scope.Classes.Mage,$scope.Classes.Paladin,$scope.Classes.Priest,$scope.Classes.Warlock,$scope.Classes.Warrior],"Eviscerate"],
-          [[$scope.Classes.Warlock,$scope.Classes.Paladin],"Fan of Knives"],
-          [[$scope.Classes.Priest,$scope.Classes.Rogue,$scope.Classes.Warrior],"Violet Teacher"]],
-        Description:[
-          "Combo opponent down with Malygos + Burn after reducing cost with Emperor Thaurissan.",
-          "Don't overcommit to killing if you know your opponent can heal."]},
       { Name:"Aggro Paladin",
-        Added:"2016-02-07T00:28:00.000-06:00",
-        Reviewed:"2016-02-12T21:48:00.000-06:00",
-        Updated:"2016-02-07T00:28:00.000-06:00",
-        Credit:"Pro Player RDU",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-22T07:48:00.000-06:00",
         Season:"Season 23",
         Class:$scope.Classes.Paladin,
-        File:"s23-rdu-aggro-paladin",
+        Files:[["BunnyHoppor - EU Prelims","s23-bunnyhoppor-aggro-paladin","2016-02-22T07:28:00.000-06:00"],["RDU - Pro","s23-rdu-aggro-paladin","2016-02-07T00:28:00.000-06:00",[["Sir Finley Mrrgglton",["A","Argent Squire"]]]]],
         Mulligan:[
-          ["A","Argent Squire"],
+          ["A","Sir Finley Mrrgglton"],
           ["A","Leper Gnome"],
           ["A","Haunted Creeper"],
           ["A","Shielded Minibot"],
@@ -422,13 +375,11 @@ angular.module('AngularApp', [
           "Make use of combos and Divine Shield to make favorable trades when necessary.",
           "Don't throw minions like Knife Juggler that don't trade well onto a bad board alone."]},
       { Name:"Midrange Paladin",
-        Added:"2016-02-06T23:58:00.000-06:00",
-        Reviewed:"2016-02-12T21:46:00.000-06:00",
-        Updated:"2016-02-06T23:58:00.000-06:00",
-        Credit:"TempoStorm",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-22T07:58:00.000-06:00",
         Season:"Season 23",
         Class:$scope.Classes.Paladin,
-        File:"s23-midrange-paladin",
+        Files:[["HearthstoneTopDeck","s23-midrange-paladin","2016-02-22T07:58:00.000-06:00"]],
         Mulligan:[
           ["A","Zombie Chow"],
           ["A","Shielded Minibot"],
@@ -442,13 +393,11 @@ angular.module('AngularApp', [
           "Try to save 1x Muster for Battle to combo with Quartermaster.",
           "Keeper of Uldaman can be used offensively or defensively."]},
       { Name:"Dragon Priest",
-        Added:"2016-02-06T23:00:00.000-06:00",
-        Reviewed:"2016-02-12T21:44:00.000-06:00",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
         Updated:"2016-02-06T23:00:00.000-06:00",
-        Credit:"Pro Player Eloise",
         Season:"Season 23",
         Class:$scope.Classes.Priest,
-        File:"s23-eloise-dragon-priest",
+        Files:[["Eloise - Pro","s23-eloise-dragon-priest","2016-02-06T23:00:00.000-06:00"]],
         Mulligan:[
           ["A","Twilight Whelp"],
           ["A","Northshire Cleric"],
@@ -462,13 +411,11 @@ angular.module('AngularApp', [
           "Focus primarily on board control, but don't waste cards.",
           "Can swap 1x Shadow Word: Death for another end-game dragon such as Chromaggus or Alexstrasza if meta permits."]},
       { Name:"Dragon Lock",
-        Added:"2016-02-06T21:46:00.000-06:00",
-        Reviewed:"2016-02-12T21:49:00.000-06:00",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
         Updated:"2016-02-06T21:46:00.000-06:00",
-        Credit:"TempoStorm",
         Season:"Season 23",
         Class:$scope.Classes.Warlock,
-        File:"s23-dragon-lock",
+        Files:[["TempoStorm","s23-dragon-lock","2016-02-06T21:46:00.000-06:00"]],
         Mulligan:[
           ["A","Zombie Chow"],
           ["A","Dark Peddler"],
@@ -481,13 +428,11 @@ angular.module('AngularApp', [
           "Combine Emperor Thaurissan + Malygos + Soulfire or Darkbomb to finish them",
           "Can sometimes get additional Soulfire from Dark Peddler"]},
       { Name:"Mech Mage",
-        Added:"2016-02-06T23:55:00.000-06:00",
-        Reviewed:"2016-02-12T21:49:00.000-06:00",
-        Updated:"2016-02-06T23:55:00.000-06:00",
-        Credit:"TempoStorm",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-22T16:55:00.000-06:00",
         Season:"Season 23",
         Class:$scope.Classes.Mage,
-        File:"s23-mech-mage",
+        Files:[["Team Celestial","s23-celestial-mech-mage","2016-02-22T16:55:00.000-06:00"]],
         Mulligan:[
           ["A","Clockwork Gnome"],
           ["A","Cogmaster"],
@@ -498,7 +443,23 @@ angular.module('AngularApp', [
         Description:[
           "Mulligan aggressively for Mechwarper and early game cards.",
           "Don't trade too much or you might fall flat late game.",
-          "Don't dump minions onto a bad board unless you can get value from them first."]}
+          "Don't dump minions onto a bad board unless you can get value from them first."]},
+      { Name:"Miracle Rogue",
+        Reviewed:"2016-03-11T07:55:00.000-06:00",
+        Updated:"2016-02-06T23:46:00.000-06:00",
+        Season:"Season 23",
+        Class:$scope.Classes.Rogue,
+        Files:[["SuperJJ - Pro","s23-miracle-rogue","2016-02-06T23:46:00.000-06:00"]],
+        Mulligan:[
+          ["A","Backstab"],
+          ["A","Deadly Poison"],
+          ["A","SI:7 Agent"],
+          [[$scope.Classes.Druid,$scope.Classes.Mage,$scope.Classes.Paladin,$scope.Classes.Priest,$scope.Classes.Warlock,$scope.Classes.Warrior],"Eviscerate"],
+          [[$scope.Classes.Warlock,$scope.Classes.Paladin],"Fan of Knives"],
+          [[$scope.Classes.Priest,$scope.Classes.Rogue,$scope.Classes.Warrior],"Violet Teacher"]],
+        Description:[
+          "Combo opponent down with Malygos + Burn after reducing cost with Emperor Thaurissan.",
+          "Don't overcommit to killing if you know your opponent can heal."]}
       ];
     $scope.Links = [
       { Name:"TempoStorm",            Desc:"Meta Snapshot",          Site:"http://www.tempostorm.com" },
@@ -510,8 +471,8 @@ angular.module('AngularApp', [
       { Name:"MetaBomb",              Desc:"Meta Decks",             Site:"http://hearthstone.metabomb.net/" },
       { Name:"Icy Veins",             Desc:"Decks & Guides",         Site:"http://www.icy-veins.com/hearthstone/decks-and-guides-for-constructed-play" },
       { Name:"Mana Crystals",         Desc:"Weekly Legend Decks",    Site:"http://manacrystals.com/articles"},
-      { Name: "Trumpfans",            Desc:"Trump's Deck Lists",     Site:"http://www.trumpfans.com/"},
-      { Name:"Zetalot's Twitter",     Desc:"Daily Priest Decks",     Site:"https://twitter.com/zetalot2"}];
+      { Name:"Trumpfans",             Desc:"Trump's Deck Lists",     Site:"http://www.trumpfans.com/"},
+      { Name:"Zetalot's Twitter",     Desc:"Legend Priest Strategy", Site:"https://twitter.com/zetalot2"}];
     $scope.UpdateDeckSelections = function()
       {
         for(var i = 0;i < $scope.Decks.length;i++)
@@ -531,6 +492,7 @@ angular.module('AngularApp', [
       };
     $scope.SelectDeck = function(index)
       {
+        $scope.SelectedDeckTab = 0;
         $scope.SelectedDeck = $scope.Decks[index];
         $scope.UpdateDeckSelections();
       };
@@ -579,13 +541,13 @@ angular.module('AngularApp', [
     $scope.DeckNeedsUpdated = function(deck)
       {
         var cutoffDate = new Date();
-        cutoffDate.setDate(today.getDate()-14);
+        cutoffDate.setDate(today.getDate()-30);
         return (new Date(deck.Updated) < cutoffDate);
       };
     $scope.UpdatedRecently = function(deck)
       {
         var d = new Date();
-        d.setHours(d.getHours() - 24);
+        d.setHours(d.getHours() - 48);
         return (new Date(deck.Updated) > d);
       };
     $scope.FixCardDB = function()
@@ -608,6 +570,43 @@ angular.module('AngularApp', [
             if(updated)
               $scope.CardDB[i] = card;
           }
+      };
+    $scope.MomentFromNow = function(time)
+      {
+        return moment(time).fromNow();
+      };
+    $scope.SelectedDeckTab = 0;
+    $scope.IsDeckTabSelected = function(index)
+      {
+        return $scope.SelectedDeckTab == index;
+      };
+    $scope.SelectDeckTab = function(index)
+      {
+        $scope.SelectedDeckTab = index;
+      };
+    $scope.GetMulligans = function(deck)
+      {
+        var mulligan = deck.Mulligan;
+        var ret = mulligan.slice();
+        if(deck.Files[$scope.SelectedDeckTab].length <= 3)
+            return ret;
+        var mulliganOverrides = deck.Files[$scope.SelectedDeckTab][3];
+        for(var ii = 0;ii < mulliganOverrides.length;ii++)
+        {
+          var replacement = mulliganOverrides[ii];
+          var replaceName = replacement[0];
+          var replaceWith = replacement[1];
+          for(var i = 0;i < mulligan.length;i++)
+          {
+            var card = mulligan[i];
+            var cardName = card[1];
+            if(replaceName === cardName)
+            {
+              ret[i] = replaceWith;
+            }
+          }
+        }
+        return ret;
       };
     $scope.FixCardDB();
     $scope.UpdateDeckSelections();

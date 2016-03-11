@@ -30,9 +30,10 @@
                   ng-style="{'color': deck.ListFGColor, 'background-color': deck.ListBGColor}", 
                   ng-click="SelectDeck($index)")
                 strong(ng-class="{'text-outline': deck == SelectedDeck }") 
-                  .glyphicon.glyphicon-star.cursor-help(ng-if="UpdatedRecently(deck)", tooltip="Updated Recently!")
+                  .glyphicon.glyphicon-star.cursor-help.text-muted(ng-if="UpdatedRecently(deck)", tooltip="Updated {{ MomentFromNow(deck.Updated) }}!")
                   | &nbsp;
                   | {{ deck.Name }} 
+                  small.glyphicon.glyphicon-exclamation-sign.cursor-help.text-danger(ng-if="DeckNeedsReviewed(deck)", tooltip="Not reviewed in last 5 days...")
                   span.pull-right
                     .label.label-default
                       | # {{ $index + 1 }}
@@ -67,7 +68,7 @@
               li
                 | Deck Source: 
                 strong
-                  | {{ SelectedDeck.Credit }}
+                  | {{ SelectedDeck.Files[SelectedDeckTab][0] }}
               li(ng-repeat="line in SelectedDeck.Description track by $index", 
                 ng-show="$index < 0 || show_full_descriptions")
                 | {{ line }}
@@ -83,11 +84,11 @@
                     | hide &raquo;
             div.visible-xs(ng-hide="hide_mulligan_suggestions")
               ul
-                li(ng-repeat="card in SelectedDeck.Mulligan")
+                li(ng-repeat="card in GetMulligans(SelectedDeck)")
                   | {{ CardLookup(card[1]).name }}
               .clearfix
             div.hidden-xs(ng-hide="hide_mulligan_suggestions", style="margin-top: 90px;")
-              .col-sm-4.card-panel.relative(ng-repeat="card in SelectedDeck.Mulligan")
+              .col-sm-4.card-panel.relative(ng-repeat="card in GetMulligans(SelectedDeck)")
                 img.card-image(src="http://wow.zamimg.com/images/hearthstone/cards/enus/original/{{ CardLookup(card[1]).id }}.png", style="width: 120%; position: absolute; top: -15%; left: -10%;")
                 <!--[if !IE]><!-->
                 div.relative(ng-if="card[0] !== 'A'", style="position: absolute; top: 0px; left: 30px;")
@@ -107,7 +108,7 @@
             hr
             // SELECTED DECK - MULLIGAN SUGGESTIONS
             h4.relative
-              | Deck History:
+              | Archetype History:
               small(style="position: absolute; bottom: 0px; right: 0px;")
                 a(href="", ng-click="hide_deck_history = !hide_deck_history")
                   span(ng-if="hide_deck_history")
@@ -118,15 +119,7 @@
               tbody
                 tr 
                   td 
-                    strong Updated:
-                  td 
-                    .label.pull-right(
-                        ng-class="{'label-success':!DeckNeedsUpdated(SelectedDeck), 'label-danger':DeckNeedsUpdated(SelectedDeck)}", 
-                        style="font-size: 0.9em;")
-                      | {{ GetFormattedUpdateTimeframe(SelectedDeck.Updated) }}
-                tr 
-                  td 
-                    strong Reviewed:
+                    | Decks Reviewed:
                   td 
                     .label.pull-right(
                         ng-class="{'label-success':!DeckNeedsReviewed(SelectedDeck), 'label-danger':DeckNeedsReviewed(SelectedDeck)}", 
@@ -134,22 +127,40 @@
                       | {{ GetFormattedUpdateTimeframe(SelectedDeck.Reviewed) }}
                 tr 
                   td 
-                    strong Added:
+                    | Decks Updated:
+                  td 
+                    .label.pull-right(
+                        ng-class="{'label-success':!DeckNeedsUpdated(SelectedDeck), 'label-danger':DeckNeedsUpdated(SelectedDeck)}", 
+                        style="font-size: 0.9em;")
+                      | {{ GetFormattedUpdateTimeframe(SelectedDeck.Updated) }}
+                tr 
+                  td 
+                    | Added 
+                    strong {{SelectedDeck.Files[SelectedDeckTab][0]}}
+                    | :
                   td 
                     .label.pull-right(
                         ng-class="{'label-success':!DeckNeedsNewList(SelectedDeck), 'label-danger':DeckNeedsNewList(SelectedDeck)}", 
                         style="font-size: 0.9em;")
-                      | {{ GetFormattedUpdateTimeframe(SelectedDeck.Added) }}
+                      | {{ GetFormattedUpdateTimeframe(SelectedDeck.Files[SelectedDeckTab][2]) }}
             hr
             // SELECTED DECK - DOWNLOAD FOR HDT
             a.btn.btn-block.btn-primary(
-                href="resources/decks/{{ SelectedDeck.File }}.xml", 
-                download="{{ SelectedDeck.File }}.xml")
+                href="resources/decks/{{ SelectedDeck.Files[SelectedDeckTab][1] }}.xml", 
+                download="{{ SelectedDeck.Files[SelectedDeckTab][1] }}.xml")
               span.glyphicon.glyphicon-download.pull-left
               strong 
                 | Download for HDT
             hr.visible-xs.visible-sm
           // SELECTED DECK - IMAGE
           .col-md-4.col-lg-5
-            img.img-responsive.center-block(src="resources/decks/{{ SelectedDeck.File }}.png")
-              | {{ card }}
+            ul.nav.nav-tabs
+              li(ng-repeat="decklist in SelectedDeck.Files track by $index", ng-class="{'active': IsDeckTabSelected($index)}")
+                a(href="#decktab{{ $index }}", aria-controls="decktab{{ $index }}", role="tab", data-toggle="tab", ng-click="SelectDeckTab($index)")
+                  small {{ decklist[0] }}
+            br
+            .well
+              .tab-content
+                .tab-pane(ng-class="{'active': IsDeckTabSelected($index)}", ng-repeat="decklist in SelectedDeck.Files track by $index", role="tabpanel", id="decktab{{ $index }}")
+                  img.img-responsive.center-block(src="resources/decks/{{ SelectedDeck.Files[$index][1] }}.png")
+                    | {{ card }}

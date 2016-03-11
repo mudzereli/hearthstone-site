@@ -2,24 +2,28 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>CS2_084</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>FP1_011</Id>
+      <Id>EX1_316</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_610</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_611</Id>
+      <Id>CS2_188</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>BRM_013</Id>
+      <Id>EX1_319</Id>
       <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>CS2_065</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>LOE_023</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_162</Id>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>FP1_002</Id>
@@ -34,52 +38,52 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>FP1_004</Id>
+      <Id>FP1_007</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_536</Id>
+      <Id>EX1_005</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>BRM_006</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>NEW1_031</Id>
+      <Id>GVG_045</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_539</Id>
+      <Id>EX1_093</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_538</Id>
-      <Count>2</Count>
+      <Id>GVG_107</Id>
+      <Count>1</Count>
     </Card>
     <Card>
-      <Id>DS1_070</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>GVG_096</Id>
-      <Count>2</Count>
+      <Id>EX1_116</Id>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>FP1_030</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_534</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
       <Id>GVG_110</Id>
       <Count>1</Count>
     </Card>
+    <Card>
+      <Id>EX1_586</Id>
+      <Count>2</Count>
+    </Card>
   </Cards>
-  <Class>Hunter</Class>
-  <HearthStatsDeckVersionId>8377568</HearthStatsDeckVersionId>
-  <HearthStatsId>7458831</HearthStatsId>
-  <LastEdited>2016-02-21T23:31:38.3523289-06:00</LastEdited>
+  <Class>Warlock</Class>
+  <HearthStatsDeckVersionId>8397450</HearthStatsDeckVersionId>
+  <HearthStatsId>7476303</HearthStatsId>
+  <LastEdited>2016-02-21T23:53:51.9526065-06:00</LastEdited>
   <MissingCards />
-  <Url>http://www.icy-veins.com/hearthstone/legendary-hunter-midrange-brm-deck</Url>
+  <Url>http://www.hearthstonetopdecks.com/decks/chakkis-na-winter-prelims-2016-warlock-zoo/</Url>
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -97,9 +101,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>0fdc5858-97b7-48a8-900d-5533778d6667</DeckId>
-  <Name>MIDRANGE</Name>
+  <DeckId>7017b819-5ed2-4874-91f2-5af4f715af0d</DeckId>
+  <Name>ZOO</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>7458831</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>7476303</HearthStatsIdForUploading>
 </Deck>
