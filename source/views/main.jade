@@ -31,6 +31,7 @@
                   ng-click="SelectDeck($index)")
                 strong(ng-class="{'text-outline': deck == SelectedDeck }") 
                   .glyphicon.glyphicon-star.cursor-help.text-muted(ng-if="UpdatedRecently(deck)", tooltip="Updated {{ MomentFromNow(deck.Updated) }}!")
+                  .fa.fa-arrow-circle-o-down.cursor-help.text-muted(ng-if="UpdatedRecently(deck)", tooltip="Updated {{ MomentFromNow(deck.Updated) }}!")
                   | &nbsp;
                   | {{ deck.Name }} 
                   small.glyphicon.glyphicon-exclamation-sign.cursor-help.text-danger(ng-if="DeckNeedsReviewed(deck)", tooltip="Not reviewed in last 5 days...")

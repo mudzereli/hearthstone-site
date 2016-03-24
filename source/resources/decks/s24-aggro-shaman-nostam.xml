@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>EX1_238</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_045</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_188</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_029</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_076</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>LOE_018</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_038</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>BRM_011</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>AT_094</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_565</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_052</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_248</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_241</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_089</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_087</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_567</Id>
+      <Count>2</Count>
+    </Card>
+  </Cards>
+  <Class>Shaman</Class>
+  <HearthStatsDeckVersionId>9399967</HearthStatsDeckVersionId>
+  <HearthStatsId>8364716</HearthStatsId>
+  <LastEdited>2016-03-23T12:30:53.2315428-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>f7de2a8b-46d6-4655-b824-347076c6e6b8</DeckId>
+  <Name>AGGRO - NOSTAM</Name>
+  <SyncWithHearthStats>true</SyncWithHearthStats>
+  <Tags>
+    <Tag>SEASON 24</Tag>
+    <Tag>#2</Tag>
+    <Tag>2016</Tag>
+    <Tag>NA</Tag>
+    <Tag>WINTER</Tag>
+    <Tag>CHAMPIONSHIP</Tag>
+  </Tags>
+  <HearthStatsIdForUploading>8364716</HearthStatsIdForUploading>
+</Deck>
