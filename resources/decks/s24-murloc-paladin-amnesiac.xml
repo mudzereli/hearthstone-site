@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>EX1_360</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_619</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_173</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_021</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_020</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_007</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_382</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_507</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_097</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_093</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_062</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>BRM_001</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_069</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>FP1_012</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_354</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_026</Id>
+      <Count>2</Count>
+    </Card>
+  </Cards>
+  <Class>Paladin</Class>
+  <HearthStatsDeckVersionId>9399850</HearthStatsDeckVersionId>
+  <HearthStatsId>8364609</HearthStatsId>
+  <LastEdited>2016-03-23T12:30:53.2405434-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>2169f6ae-3aee-4655-8cce-bcd0ee4d608c</DeckId>
+  <Name>MURLOC - AMNESIAC</Name>
+  <SyncWithHearthStats>true</SyncWithHearthStats>
+  <Tags>
+    <Tag>SEASON 24</Tag>
+    <Tag>#1</Tag>
+    <Tag>2016</Tag>
+    <Tag>NA</Tag>
+    <Tag>WINTER</Tag>
+    <Tag>CHAMPIONSHIP</Tag>
+  </Tags>
+  <HearthStatsIdForUploading>8364609</HearthStatsIdForUploading>
+</Deck>
