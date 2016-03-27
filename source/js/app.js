@@ -83,7 +83,7 @@ angular.module('AngularApp', [
 /* Main Application Controller */
 .controller('AppController', ['$scope', '$routeParams', '$location', function($scope, $routeParams, $location){
     //alert($route.current.params);
-    $scope.LastUpdateDate = moment("20160326:20:00","YYYYMMDD HH:mm:SS").fromNow();
+    $scope.LastUpdateDate = moment("20160327:11:00","YYYYMMDD HH:mm:SS").fromNow();
     var today = new Date();
     var season1 = new Date(2014,01,01);
     $scope.CurrentSeason = "Season " + monthDiff(season1,today);
@@ -166,14 +166,14 @@ angular.module('AngularApp', [
         Season:"Season 24",
         Class:$scope.Classes.Warrior,
         Files:[
-          ["Amnesiac","#1 2016 NA Winter Championship" ,"s24-control-warrior-amnesiac","2016-03-23T16:00:00.000-06:00"],
+          ["Amnesiac","#1 2016 NA Winter Championship" ,"s24-control-warrior-amnesiac","2016-03-23T16:00:00.000-06:00",[["Armorsmith",["A","Deathlord"]],["Bash",[[$scope.Classes.Shaman,$scope.Classes.Hunter,$scope.Classes.Paladin,$scope.Classes.Warlock],"Doomsayer"]]]],
           ["Icy Veins","Season 24","s24-control-warrior-icyveins","2016-03-23T16:00:00.000-06:00"]],
         Mulligan:[
           ["A","Fiery War Axe"],
           ["A","Armorsmith"],
           ["A","Acolyte of Pain"],
           ["A","Death's Bite"],
-          [[$scope.Classes.Hunter,$scope.Classes.Shaman,$scope.Classes.Paladin,$scope.Classes.Warlock],"Doomsayer"],
+          [[$scope.Classes.Rogue,$scope.Classes.Mage,$scope.Classes.Priest,$scope.Classes.Shaman],"Bash"],
           [[$scope.Classes.Priest,$scope.Classes.Rogue,$scope.Classes.Warlock],"Execute"]],
         Description:[
           "Keep control of the board but don't waste your removal.",
@@ -695,9 +695,9 @@ angular.module('AngularApp', [
       {
         var mulligan = deck.Mulligan;
         var ret = mulligan.slice();
-        if(deck.Files[$scope.SelectedDeckTab].length <= 3)
+        if(deck.Files[$scope.SelectedDeckTab].length <= 4)
             return ret;
-        var mulliganOverrides = deck.Files[$scope.SelectedDeckTab][3];
+        var mulliganOverrides = deck.Files[$scope.SelectedDeckTab][4];
         for(var ii = 0;ii < mulliganOverrides.length;ii++)
         {
           var replacement = mulliganOverrides[ii];
@@ -715,18 +715,22 @@ angular.module('AngularApp', [
         }
         return ret;
       };
+    $scope.FixRoute = function()
+      {
+        if(typeof($routeParams.routeSelectedDeck) === "undefined")
+        {
+          $scope.SelectedDeck = -1;
+          $scope.SelectedDeckTab = 0;
+        }
+        else
+        {
+          $scope.SelectDeck($routeParams.routeSelectedDeck);
+          $scope.SelectDeckTab($routeParams.routeSelectedTab);
+        }
+        $scope.UpdateDeckSelections();
+      };
     $scope.$on('$routeChangeSuccess', function() {
-      if(typeof($routeParams.routeSelectedDeck) === "undefined")
-      {
-        $scope.SelectedDeck = -1;
-        $scope.SelectedDeckTab = 0;
-      }
-      else
-      {
-        $scope.SelectedDeck = $scope.Decks[$routeParams.routeSelectedDeck];
-        $scope.SelectedDeckTab = $routeParams.routeSelectedTab;
-      }
-      $scope.UpdateDeckSelections();
+      $scope.FixRoute();
     });
     $scope.FixCardDB();
     $scope.UpdateDeckSelections();
