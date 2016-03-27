@@ -58,10 +58,10 @@
           .col-md-8.col-lg-7
             // SELECTED DECK - DESCRIPTION
             .panel.panel-default
-              .panel-heading.noselect(style="background-color: {{ SelectedDeck.Class.BGColor }}; color: {{ SelectedDeck.Class.FGColor }};", ng-click="hide_full_descriptions = !hide_full_descriptions")
+              .panel-heading.noselect(ng-click="hide_full_descriptions = !hide_full_descriptions")
                 strong
                   .relative
-                    | Deck Description:
+                    | {{ SelectedDeck.Name }} Description:
                     small(style="position: absolute; bottom: 0px; right: 0px;")
                       span.link
                         span(ng-if="hide_full_descriptions")
@@ -82,10 +82,10 @@
                         | more &raquo;
             // SELECTED DECK - MULLIGAN SUGGESTIONS
             .panel.panel-default
-              .panel-heading.noselect(style="background-color: {{ SelectedDeck.Class.BGColor }}; color: {{ SelectedDeck.Class.FGColor }};", ng-click="hide_mulligan_suggestions = !hide_mulligan_suggestions")
+              .panel-heading.noselect(ng-click="hide_mulligan_suggestions = !hide_mulligan_suggestions")
                 strong
                   .relative
-                    | Mulligan Suggestions:
+                    | {{ SelectedDeck.Name }} Mulligan Suggestions:
                     small(style="position: absolute; bottom: 0px; right: 0px;")
                       span.link
                         span(ng-if="hide_mulligan_suggestions")
@@ -118,7 +118,7 @@
                 .clearfix
             // SELECTED DECK - MULLIGAN SUGGESTIONS
             .panel.panel-default
-              .panel-heading.noselect(style="background-color: {{ SelectedDeck.Class.BGColor }}; color: {{ SelectedDeck.Class.FGColor }};", ng-click="hide_deck_history = !hide_deck_history", ng-init="hide_deck_history = true;")
+              .panel-heading.noselect(ng-click="hide_deck_history = !hide_deck_history", ng-init="hide_deck_history = true;")
                 strong
                   .relative
                     | {{ SelectedDeck.Name }} Archetype History:
@@ -176,7 +176,7 @@
               .tab-pane(ng-class="{'active': IsDeckTabSelected($index)}", ng-repeat="decklist in SelectedDeck.Files track by $index", role="tabpanel", id="decktab{{ $index }}")
                 br
                 .panel.panel-default
-                  .panel-heading(style="background-color: {{ SelectedDeck.Class.BGColor }}; color: {{ SelectedDeck.Class.FGColor }};")
+                  .panel-heading()
                     .text-center
                       strong 
                         strong {{ SelectedDeck.Files[$index][0] }}'s 
