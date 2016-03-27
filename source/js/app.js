@@ -10,12 +10,7 @@ angular.module('AngularApp', [
 .config(function ($routeProvider) {
   $routeProvider
     .when('/', {
-      templateUrl: 'views/main.html'
-    })
-    .when('/-1/:routeSelectedTab', {
-      templateUrl: 'views/main.html'
-    })
-    .when('/:routeSelectedDeck/:routeSelectedTab', {
+      reloadOnSearch: false,
       templateUrl: 'views/main.html'
     })
     .when('/meta', {
@@ -82,7 +77,6 @@ angular.module('AngularApp', [
 }])
 /* Main Application Controller */
 .controller('AppController', ['$scope', '$routeParams', '$location', function($scope, $routeParams, $location){
-    //alert($route.current.params);
     $scope.LastUpdateDate = moment("20160327:11:00","YYYYMMDD HH:mm:SS").fromNow();
     var today = new Date();
     var season1 = new Date(2014,01,01);
@@ -598,7 +592,7 @@ angular.module('AngularApp', [
       {
         $scope.SelectedDeckTab = 0;
         $scope.SelectedDeckIndex = index;
-        $location.path("/" + $scope.SelectedDeckIndex + "/" + $scope.SelectedDeckTab);
+        $location.search({deck: $scope.SelectedDeckIndex, version: $scope.SelectedDeckTab});
         $scope.SelectedDeck = $scope.Decks[index];
         $scope.UpdateDeckSelections();
       };
@@ -689,7 +683,7 @@ angular.module('AngularApp', [
     $scope.SelectDeckTab = function(index)
       {
         $scope.SelectedDeckTab = index;
-        $location.path("/" + $scope.SelectedDeckIndex + "/" + $scope.SelectedDeckTab);
+        $location.search({deck: $scope.SelectedDeckIndex, version: $scope.SelectedDeckTab});
       };
     $scope.GetMulligans = function(deck)
       {
@@ -717,15 +711,15 @@ angular.module('AngularApp', [
       };
     $scope.FixRoute = function()
       {
-        if(typeof($routeParams.routeSelectedDeck) === "undefined")
+        if(typeof($routeParams.deck) === "undefined")
         {
           $scope.SelectedDeck = -1;
           $scope.SelectedDeckTab = 0;
         }
         else
         {
-          $scope.SelectDeck($routeParams.routeSelectedDeck);
-          $scope.SelectDeckTab($routeParams.routeSelectedTab);
+          $scope.SelectDeck($routeParams.deck);
+          $scope.SelectDeckTab($routeParams.version);
         }
         $scope.UpdateDeckSelections();
       };
