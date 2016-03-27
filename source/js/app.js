@@ -359,7 +359,7 @@ angular.module('AngularApp', [
         Season:"Season 24",
         Class:$scope.Classes.Paladin,
         Files:[
-          ["Naiman","#1 2016 EU Winter Championship","s24-midrange-paladin-Naiman","2016-03-23T16:00:00.000-06:00"],
+          ["Naiman","#1 2016 EU Winter Championship","s24-midrange-paladin-naiman","2016-03-23T16:00:00.000-06:00"],
           ["HearthstoneTopDeck","S23 Ladder","s23-midrange-paladin","2016-02-22T07:58:00.000-06:00"]],
         Mulligan:[
           ["A","Zombie Chow"],
