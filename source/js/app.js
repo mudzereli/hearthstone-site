@@ -77,7 +77,7 @@ angular.module('AngularApp', [
 }])
 /* Main Application Controller */
 .controller('AppController', ['$scope', '$routeParams', '$location', function($scope, $routeParams, $location){
-    $scope.LastUpdateDate = moment("20160327:11:00","YYYYMMDD HH:mm:SS").fromNow();
+    $scope.LastUpdateDate = moment("20160327:16:00","YYYYMMDD HH:mm:SS").fromNow();
     var today = new Date();
     var season1 = new Date(2014,01,01);
     $scope.CurrentSeason = "Season " + monthDiff(season1,today);
@@ -592,7 +592,7 @@ angular.module('AngularApp', [
       {
         $scope.SelectedDeckTab = 0;
         $scope.SelectedDeckIndex = index;
-        $location.search({deck: $scope.SelectedDeckIndex, version: $scope.SelectedDeckTab});
+        $location.search({deck: $scope.SelectedDeckIndex, ver: $scope.SelectedDeckTab});
         $scope.SelectedDeck = $scope.Decks[index];
         $scope.UpdateDeckSelections();
       };
@@ -683,7 +683,7 @@ angular.module('AngularApp', [
     $scope.SelectDeckTab = function(index)
       {
         $scope.SelectedDeckTab = index;
-        $location.search({deck: $scope.SelectedDeckIndex, version: $scope.SelectedDeckTab});
+        $location.search({deck: $scope.SelectedDeckIndex, ver: $scope.SelectedDeckTab});
       };
     $scope.GetMulligans = function(deck)
       {
@@ -719,7 +719,7 @@ angular.module('AngularApp', [
         else
         {
           $scope.SelectDeck($routeParams.deck);
-          $scope.SelectDeckTab($routeParams.version);
+          $scope.SelectDeckTab($routeParams.ver);
         }
         $scope.UpdateDeckSelections();
       };
