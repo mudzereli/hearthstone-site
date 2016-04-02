@@ -2,88 +2,80 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>EX1_169</Id>
+      <Id>EX1_607</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>AT_037</Id>
+      <Id>CS2_108</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>CS2_013</Id>
+      <Id>EX1_400</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_154</Id>
+      <Id>CS2_106</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_005</Id>
+      <Id>EX1_392</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>FP1_005</Id>
+      <Id>CS2_104</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>CS2_012</Id>
+      <Id>EX1_391</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_166</Id>
+      <Id>EX1_603</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_096</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>GVG_096</Id>
+      <Id>FP1_024</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>CS2_103</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>NEW1_007</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_284</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_165</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>FP1_030</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>FP1_012</Id>
+      <Id>EX1_606</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>BRM_028</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_016</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>NEW1_008</Id>
+      <Id>EX1_007</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_178</Id>
+      <Id>EX1_412</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_573</Id>
+      <Id>FP1_021</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_147</Id>
       <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>BRM_019</Id>
+      <Count>2</Count>
     </Card>
   </Cards>
-  <Class>Druid</Class>
-  <HearthStatsDeckVersionId>9692497</HearthStatsDeckVersionId>
-  <HearthStatsId>8627185</HearthStatsId>
-  <LastEdited>2016-04-01T09:36:19.962845-05:00</LastEdited>
+  <Class>Warrior</Class>
+  <HearthStatsDeckVersionId>9696749</HearthStatsDeckVersionId>
+  <HearthStatsId>8630967</HearthStatsId>
+  <LastEdited>2016-04-01T11:34:40.8249911-05:00</LastEdited>
   <MissingCards />
-  <Url />
+  <Url>http://www.hearthstonetopdecks.com/decks/thijs-season-24-otk-worgen-patron-warrior/</Url>
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -101,15 +93,14 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>311a4732-13f9-4e13-977e-37101db444f7</DeckId>
-  <Name>RAMP - ERSEE</Name>
+  <DeckId>1dcdb35e-5994-4cb9-82c0-faded8e6be8a</DeckId>
+  <Name>WORGEN PATRON - THIJS</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags>
     <Tag>SEASON 24</Tag>
-    <Tag>#2</Tag>
     <Tag>EU</Tag>
     <Tag>LEGEND</Tag>
     <Tag>LADDER</Tag>
   </Tags>
-  <HearthStatsIdForUploading>8627185</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>8630967</HearthStatsIdForUploading>
 </Deck>
