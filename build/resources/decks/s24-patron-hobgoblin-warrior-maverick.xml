@@ -27,7 +27,7 @@
     </Card>
     <Card>
       <Id>EX1_391</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_402</Id>
@@ -54,10 +54,6 @@
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>GVG_096</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>BRM_019</Id>
       <Count>2</Count>
     </Card>
@@ -75,24 +71,133 @@
     </Card>
   </Cards>
   <Class>Warrior</Class>
-  <HearthStatsDeckVersionId>9406326</HearthStatsDeckVersionId>
+  <HearthStatsDeckVersionId />
   <HearthStatsId>8370426</HearthStatsId>
-  <LastEdited>2016-03-23T13:20:08.4955743-05:00</LastEdited>
+  <LastEdited>2016-04-01T09:39:45.2995896-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
     <Build>0</Build>
     <Major>1</Major>
-    <Minor>0</Minor>
+    <Minor>1</Minor>
     <Revision>0</Revision>
   </Version>
-  <DeckHistory />
+  <DeckHistory>
+    <Deck>
+      <Cards>
+        <Card>
+          <Id>EX1_607</Id>
+          <Count>2</Count>
+        </Card>
+        <Card>
+          <Id>CS2_108</Id>
+          <Count>2</Count>
+        </Card>
+        <Card>
+          <Id>EX1_400</Id>
+          <Count>2</Count>
+        </Card>
+        <Card>
+          <Id>CS2_189</Id>
+          <Count>2</Count>
+        </Card>
+        <Card>
+          <Id>CS2_106</Id>
+          <Count>2</Count>
+        </Card>
+        <Card>
+          <Id>EX1_392</Id>
+          <Count>2</Count>
+        </Card>
+        <Card>
+          <Id>EX1_391</Id>
+          <Count>1</Count>
+        </Card>
+        <Card>
+          <Id>EX1_402</Id>
+          <Count>2</Count>
+        </Card>
+        <Card>
+          <Id>FP1_024</Id>
+          <Count>2</Count>
+        </Card>
+        <Card>
+          <Id>EX1_007</Id>
+          <Count>2</Count>
+        </Card>
+        <Card>
+          <Id>GVG_104</Id>
+          <Count>2</Count>
+        </Card>
+        <Card>
+          <Id>FP1_021</Id>
+          <Count>2</Count>
+        </Card>
+        <Card>
+          <Id>EX1_396</Id>
+          <Count>1</Count>
+        </Card>
+        <Card>
+          <Id>GVG_096</Id>
+          <Count>1</Count>
+        </Card>
+        <Card>
+          <Id>BRM_019</Id>
+          <Count>2</Count>
+        </Card>
+        <Card>
+          <Id>BRM_028</Id>
+          <Count>1</Count>
+        </Card>
+        <Card>
+          <Id>GVG_110</Id>
+          <Count>1</Count>
+        </Card>
+        <Card>
+          <Id>EX1_414</Id>
+          <Count>1</Count>
+        </Card>
+      </Cards>
+      <Class>Warrior</Class>
+      <HearthStatsDeckVersionId>9406326</HearthStatsDeckVersionId>
+      <HearthStatsId />
+      <LastEdited>2016-04-01T09:38:55.2487269-05:00</LastEdited>
+      <MissingCards />
+      <Url />
+      <Version>
+        <Build>0</Build>
+        <Major>1</Major>
+        <Minor>0</Minor>
+        <Revision>0</Revision>
+      </Version>
+      <DeckHistory />
+      <Archived>false</Archived>
+      <Note />
+      <SelectedVersion>
+        <Build>0</Build>
+        <Major>1</Major>
+        <Minor>0</Minor>
+        <Revision>0</Revision>
+      </SelectedVersion>
+      <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+      <IsArenaDeck>false</IsArenaDeck>
+      <DeckId>79ebd96c-365b-472d-9d7b-e44cab6d1971</DeckId>
+      <Name>PATRON HOBGOBLIN - MAVERICK</Name>
+      <SyncWithHearthStats>true</SyncWithHearthStats>
+      <Tags>
+        <Tag>SEASON 24</Tag>
+        <Tag>LADDER</Tag>
+        <Tag>LEGEND</Tag>
+      </Tags>
+      <HearthStatsIdForUploading>8370426</HearthStatsIdForUploading>
+    </Deck>
+  </DeckHistory>
   <Archived>false</Archived>
   <Note />
   <SelectedVersion>
     <Build>0</Build>
     <Major>1</Major>
-    <Minor>0</Minor>
+    <Minor>1</Minor>
     <Revision>0</Revision>
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
@@ -102,8 +207,10 @@
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags>
     <Tag>SEASON 24</Tag>
-    <Tag>LADDER</Tag>
+    <Tag>#1</Tag>
+    <Tag>NA</Tag>
     <Tag>LEGEND</Tag>
+    <Tag>LADDER</Tag>
   </Tags>
   <HearthStatsIdForUploading>8370426</HearthStatsIdForUploading>
 </Deck>

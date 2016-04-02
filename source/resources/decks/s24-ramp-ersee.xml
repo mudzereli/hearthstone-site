@@ -79,9 +79,9 @@
     </Card>
   </Cards>
   <Class>Druid</Class>
-  <HearthStatsDeckVersionId>9406224</HearthStatsDeckVersionId>
-  <HearthStatsId>8370334</HearthStatsId>
-  <LastEdited>2016-03-23T13:14:50.7143982-05:00</LastEdited>
+  <HearthStatsDeckVersionId>9692497</HearthStatsDeckVersionId>
+  <HearthStatsId>8627185</HearthStatsId>
+  <LastEdited>2016-04-01T09:36:19.962845-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -101,13 +101,15 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>54eb25ff-a34e-45db-9f5f-fd937de88f1a</DeckId>
-  <Name>RAMP TAUNT - ERSEE</Name>
+  <DeckId>311a4732-13f9-4e13-977e-37101db444f7</DeckId>
+  <Name>RAMP - ERSEE</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags>
     <Tag>SEASON 24</Tag>
-    <Tag>LADDER</Tag>
+    <Tag>#2</Tag>
+    <Tag>EU</Tag>
     <Tag>LEGEND</Tag>
+    <Tag>LADDER</Tag>
   </Tags>
-  <HearthStatsIdForUploading>8370334</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>8627185</HearthStatsIdForUploading>
 </Deck>

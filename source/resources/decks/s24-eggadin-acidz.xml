@@ -2,86 +2,82 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>EX1_169</Id>
+      <Id>CS2_087</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>AT_037</Id>
+      <Id>CS2_188</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>CS2_013</Id>
+      <Id>EX1_008</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_154</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_005</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>FP1_005</Id>
+      <Id>FP1_001</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>CS2_012</Id>
+      <Id>FP1_002</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_166</Id>
+      <Id>FP1_007</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>GVG_096</Id>
+      <Id>GVG_058</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>NEW1_007</Id>
+      <Id>GVG_059</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_284</Id>
+      <Id>EX1_349</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_061</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_074</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_097</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_165</Id>
+      <Id>CS2_092</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_093</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>LOE_017</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_053</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_116</Id>
       <Count>1</Count>
     </Card>
     <Card>
       <Id>FP1_030</Id>
       <Count>1</Count>
     </Card>
-    <Card>
-      <Id>FP1_012</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>BRM_028</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_016</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>NEW1_008</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_178</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_573</Id>
-      <Count>1</Count>
-    </Card>
   </Cards>
-  <Class>Druid</Class>
-  <HearthStatsDeckVersionId>9692497</HearthStatsDeckVersionId>
-  <HearthStatsId>8627185</HearthStatsId>
-  <LastEdited>2016-04-01T09:36:19.962845-05:00</LastEdited>
+  <Class>Paladin</Class>
+  <HearthStatsDeckVersionId>9712361</HearthStatsDeckVersionId>
+  <HearthStatsId>8644680</HearthStatsId>
+  <LastEdited>2016-04-01T20:00:57.6434457-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -101,15 +97,14 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>311a4732-13f9-4e13-977e-37101db444f7</DeckId>
-  <Name>RAMP - ERSEE</Name>
+  <DeckId>af0017c1-13f3-4e6f-bbc2-5696f047a440</DeckId>
+  <Name>EGGADIN - ACIDZ</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags>
     <Tag>SEASON 24</Tag>
-    <Tag>#2</Tag>
-    <Tag>EU</Tag>
+    <Tag>NA</Tag>
     <Tag>LEGEND</Tag>
     <Tag>LADDER</Tag>
   </Tags>
-  <HearthStatsIdForUploading>8627185</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>8644680</HearthStatsIdForUploading>
 </Deck>

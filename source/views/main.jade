@@ -31,7 +31,7 @@
                   ng-click="SelectDeck($index)")
                 strong(ng-class="{'text-outline': deck == SelectedDeck }") 
                   .glyphicon.glyphicon-star.cursor-help.text-muted(ng-if="UpdatedRecently(deck)", tooltip="Updated {{ MomentFromNow(deck.Updated) }}!")
-                  .fa.fa-arrow-circle-o-down.cursor-help.text-danger(ng-if="DeckNeedsNewList(deck)", tooltip-html-unsafe="WARNING: Deck Last Updated {{ MomentFromNow(deck.Updated) }}! <br> May be falling out of meta.")
+                  .fa.fa-arrow-circle-o-down.cursor-help.text-danger(ng-if="DeckNeedsUpdated(deck)", tooltip-html-unsafe="WARNING: Deck Last Updated {{ MomentFromNow(deck.Updated) }}! <br> May be falling out of meta.")
                   | &nbsp;
                   | {{ deck.Name }} 
                   small.glyphicon.glyphicon-exclamation-sign.cursor-help.text-danger(ng-if="DeckNeedsReviewed(deck)", tooltip="Not reviewed in last 5 days...")
@@ -161,7 +161,7 @@
                           |:
                         td 
                           .label.pull-right(
-                              ng-class="{'label-success':!DeckNeedsNewList(SelectedDeck), 'label-danger':DeckNeedsNewList(SelectedDeck)}", 
+                              ng-class="{'label-success':!DeckNeedsUpdated(SelectedDeck), 'label-danger':DeckNeedsUpdated(SelectedDeck)}", 
                               style="font-size: 0.9em;")
                             | {{ GetFormattedUpdateTimeframe(SelectedDeck.Files[SelectedDeckTab][3]) }}
               // SELECTED DECK - DOWNLOAD FOR HDT

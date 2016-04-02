@@ -18,8 +18,16 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_005</Id>
+      <Id>CS2_011</Id>
       <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_005</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_085</Id>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>FP1_005</Id>
@@ -38,23 +46,19 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>NEW1_007</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>EX1_284</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_165</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>FP1_030</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>FP1_012</Id>
+      <Id>EX1_571</Id>
       <Count>2</Count>
     </Card>
     <Card>
@@ -62,28 +66,20 @@
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_016</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>NEW1_008</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_178</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_573</Id>
+      <Id>GVG_110</Id>
       <Count>1</Count>
     </Card>
   </Cards>
   <Class>Druid</Class>
-  <HearthStatsDeckVersionId>9692497</HearthStatsDeckVersionId>
-  <HearthStatsId>8627185</HearthStatsId>
-  <LastEdited>2016-04-01T09:36:19.962845-05:00</LastEdited>
+  <HearthStatsDeckVersionId>9712005</HearthStatsDeckVersionId>
+  <HearthStatsId>8644377</HearthStatsId>
+  <LastEdited>2016-04-01T19:44:38.0454159-05:00</LastEdited>
   <MissingCards />
-  <Url />
+  <Url>http://www.hearthstonetopdecks.com/decks/ness-insomnia-truesilver-championship-midrange-druid/</Url>
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -101,15 +97,15 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>311a4732-13f9-4e13-977e-37101db444f7</DeckId>
-  <Name>RAMP - ERSEE</Name>
+  <DeckId>41adba0c-9897-4a1c-938b-c1539edb6264</DeckId>
+  <Name>MIDRANGE - NESS</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags>
     <Tag>SEASON 24</Tag>
-    <Tag>#2</Tag>
-    <Tag>EU</Tag>
-    <Tag>LEGEND</Tag>
-    <Tag>LADDER</Tag>
+    <Tag>#1</Tag>
+    <Tag>2016</Tag>
+    <Tag>TRUESILVER CUP</Tag>
+    <Tag>CHAMPIONSHIP</Tag>
   </Tags>
-  <HearthStatsIdForUploading>8627185</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>8644377</HearthStatsIdForUploading>
 </Deck>

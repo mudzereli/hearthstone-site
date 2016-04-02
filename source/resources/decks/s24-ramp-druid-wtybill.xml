@@ -6,7 +6,7 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>AT_037</Id>
+      <Id>FP1_001</Id>
       <Count>2</Count>
     </Card>
     <Card>
@@ -18,11 +18,19 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_005</Id>
-      <Count>2</Count>
+      <Id>AT_038</Id>
+      <Count>1</Count>
     </Card>
     <Card>
-      <Id>FP1_005</Id>
+      <Id>CS2_011</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_005</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_085</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -34,23 +42,23 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>GVG_096</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>NEW1_007</Id>
+      <Id>GVG_074</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_284</Id>
+      <Id>GVG_096</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>CS2_179</Id>
       <Count>1</Count>
     </Card>
     <Card>
       <Id>EX1_165</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
-      <Id>FP1_030</Id>
+      <Id>EX1_558</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -58,11 +66,7 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>BRM_028</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_016</Id>
+      <Id>EX1_571</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -74,16 +78,16 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_573</Id>
+      <Id>FP1_013</Id>
       <Count>1</Count>
     </Card>
   </Cards>
   <Class>Druid</Class>
-  <HearthStatsDeckVersionId>9692497</HearthStatsDeckVersionId>
-  <HearthStatsId>8627185</HearthStatsId>
-  <LastEdited>2016-04-01T09:36:19.962845-05:00</LastEdited>
+  <HearthStatsDeckVersionId>9693070</HearthStatsDeckVersionId>
+  <HearthStatsId>8627685</HearthStatsId>
+  <LastEdited>2016-04-01T09:52:10.663222-05:00</LastEdited>
   <MissingCards />
-  <Url />
+  <Url>http://www.hearthstonetopdecks.com/decks/wtybills-na-winter-championship-ramp-druid/</Url>
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -101,15 +105,15 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>311a4732-13f9-4e13-977e-37101db444f7</DeckId>
-  <Name>RAMP - ERSEE</Name>
+  <DeckId>d558bdbe-765b-4269-979b-c781bb5a8de7</DeckId>
+  <Name>RAMP - WTYBILL</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags>
     <Tag>SEASON 24</Tag>
-    <Tag>#2</Tag>
-    <Tag>EU</Tag>
-    <Tag>LEGEND</Tag>
-    <Tag>LADDER</Tag>
+    <Tag>2016</Tag>
+    <Tag>NA</Tag>
+    <Tag>WINTER</Tag>
+    <Tag>CHAMPIONSHIP</Tag>
   </Tags>
-  <HearthStatsIdForUploading>8627185</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>8627685</HearthStatsIdForUploading>
 </Deck>

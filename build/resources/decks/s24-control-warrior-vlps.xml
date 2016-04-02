@@ -2,55 +2,59 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>EX1_169</Id>
+      <Id>CS2_108</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>AT_037</Id>
+      <Id>EX1_410</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>CS2_013</Id>
+      <Id>CS2_106</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_154</Id>
+      <Id>BRM_015</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_391</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>AT_064</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_606</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_007</Id>
       <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_005</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>FP1_005</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>CS2_012</Id>
+      <Id>FP1_009</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_166</Id>
+      <Id>FP1_021</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>GVG_096</Id>
+      <Id>LOE_079</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_407</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>NEW1_007</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_284</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_165</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>FP1_030</Id>
+      <Id>EX1_558</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -58,30 +62,22 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>BRM_028</Id>
+      <Id>AT_132</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_016</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>NEW1_008</Id>
+      <Id>GVG_053</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_178</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_573</Id>
+      <Id>EX1_414</Id>
       <Count>1</Count>
     </Card>
   </Cards>
-  <Class>Druid</Class>
-  <HearthStatsDeckVersionId>9692497</HearthStatsDeckVersionId>
-  <HearthStatsId>8627185</HearthStatsId>
-  <LastEdited>2016-04-01T09:36:19.962845-05:00</LastEdited>
+  <Class>Warrior</Class>
+  <HearthStatsDeckVersionId>9399878</HearthStatsDeckVersionId>
+  <HearthStatsId>8364634</HearthStatsId>
+  <LastEdited>2016-04-01T11:54:34.2232496-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -101,15 +97,14 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>311a4732-13f9-4e13-977e-37101db444f7</DeckId>
-  <Name>RAMP - ERSEE</Name>
+  <DeckId>c645aec4-8658-4d2a-83f8-92cd68fbd6ba</DeckId>
+  <Name>CONTROL - VLPS</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags>
     <Tag>SEASON 24</Tag>
-    <Tag>#2</Tag>
-    <Tag>EU</Tag>
+    <Tag>NA</Tag>
     <Tag>LEGEND</Tag>
     <Tag>LADDER</Tag>
   </Tags>
-  <HearthStatsIdForUploading>8627185</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>8364634</HearthStatsIdForUploading>
 </Deck>
