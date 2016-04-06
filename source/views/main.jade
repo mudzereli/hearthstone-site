@@ -179,7 +179,9 @@
                 li(ng-repeat="decklist in SelectedDeck.Files track by $index", ng-class="{'active': IsDeckTabSelected($index)}")
                   a.cursor-pointer(aria-controls="decktab{{ $index }}", role="tab", data-toggle="tab", ng-click="SelectDeckTab($index)")
                     strong
-                      span(style="font-size: 0.9em;") {{ decklist[0] }}
+                      span(style="font-size: 0.9em;") {{ decklist[0] }} 
+                        small
+                          small.glyphicon.glyphicon-star.cursor-help.text-muted(ng-if="AddedRecently(decklist)", tooltip="Added {{ MomentFromNow(decklist[3]) }}!")
               .tab-content
                 .tab-pane(ng-class="{'active': IsDeckTabSelected($index)}", ng-repeat="decklist in SelectedDeck.Files track by $index", role="tabpanel", id="decktab{{ $index }}")
                   br

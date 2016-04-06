@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>EX1_316</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_188</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_008</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_319</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_065</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_023</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>FP1_003</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>FP1_002</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_019</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_104</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>BRM_006</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_045</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_093</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_122</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>FP1_030</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>GVG_110</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_586</Id>
+      <Count>2</Count>
+    </Card>
+  </Cards>
+  <Class>Warlock</Class>
+  <HearthStatsDeckVersionId>9819984</HearthStatsDeckVersionId>
+  <HearthStatsId>8740594</HearthStatsId>
+  <LastEdited>2016-04-06T00:24:09.4171303-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>61c4d2f0-9a3f-450f-ab07-d44b4d5c9e7e</DeckId>
+  <Name>HOBGOBLIN ZOO - BEARNUGGET</Name>
+  <SyncWithHearthStats>true</SyncWithHearthStats>
+  <Tags>
+    <Tag>SEASON 24</Tag>
+    <Tag>NA</Tag>
+    <Tag>LEGEND</Tag>
+    <Tag>LADDER</Tag>
+  </Tags>
+  <HearthStatsIdForUploading>8740594</HearthStatsIdForUploading>
+</Deck>
