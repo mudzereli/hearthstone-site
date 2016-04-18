@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>EX1_621</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_055</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_012</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_004</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_235</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_020</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_622</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_181</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_591</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_011</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS1_112</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_104</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_008</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_091</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_132</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_016</Id>
+      <Count>1</Count>
+    </Card>
+  </Cards>
+  <Class>Priest</Class>
+  <HearthStatsDeckVersionId>10259203</HearthStatsDeckVersionId>
+  <HearthStatsId>9133742</HearthStatsId>
+  <LastEdited>2016-04-18T07:18:58.7790975-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>825dd655-0068-4910-90b1-7130ad4da6ec</DeckId>
+  <Name>CONTROL - ZETALOT</Name>
+  <SyncWithHearthStats>true</SyncWithHearthStats>
+  <Tags>
+    <Tag>SEASON 25</Tag>
+    <Tag>LEGEND</Tag>
+    <Tag>LADDER</Tag>
+  </Tags>
+  <HearthStatsIdForUploading>9133742</HearthStatsIdForUploading>
+</Deck>
