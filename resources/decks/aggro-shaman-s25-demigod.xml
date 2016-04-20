@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>EX1_245</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_238</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_045</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_188</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_029</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_076</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>LOE_018</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_053</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>GVG_038</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>GVG_085</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_094</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_565</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>AT_052</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_248</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_241</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_087</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_567</Id>
+      <Count>2</Count>
+    </Card>
+  </Cards>
+  <Class>Shaman</Class>
+  <HearthStatsDeckVersionId>10329354</HearthStatsDeckVersionId>
+  <HearthStatsId>9196536</HearthStatsId>
+  <LastEdited>2016-04-20T11:10:02.7894087-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>7037b9fa-3f9d-4535-aa73-3c66b70616bf</DeckId>
+  <Name>AGGRO - DEMIGOD</Name>
+  <SyncWithHearthStats>true</SyncWithHearthStats>
+  <Tags>
+    <Tag>SEASON 25</Tag>
+    <Tag>#1</Tag>
+    <Tag>NA</Tag>
+    <Tag>LEGEND</Tag>
+    <Tag>LADDER</Tag>
+  </Tags>
+  <HearthStatsIdForUploading>9196536</HearthStatsIdForUploading>
+</Deck>
