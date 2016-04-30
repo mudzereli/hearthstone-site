@@ -68,7 +68,7 @@
   </Cards>
   <Class>Warlock</Class>
   <HearthStatsId />
-  <LastEdited>2016-04-27T10:39:53.4328334-05:00</LastEdited>
+  <LastEdited>2016-04-30T09:37:27.3509618-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -91,5 +91,9 @@
   <DeckId>9d482716-6ee1-44c9-a692-69de5c57dabe</DeckId>
   <Name>ZOO - MRAPOCALYPSE</Name>
   <SyncWithHearthStats xsi:nil="true" />
-  <Tags />
+  <Tags>
+    <Tag>Season 25</Tag>
+    <Tag>Legend</Tag>
+    <Tag>Ladder</Tag>
+  </Tags>
 </Deck>

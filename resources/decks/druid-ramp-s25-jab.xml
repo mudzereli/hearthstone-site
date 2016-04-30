@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>EX1_169</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_037</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_013</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_154</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_281</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_162</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_286</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_012</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_044</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_188</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_202</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_164</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_284</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_165</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_293</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_178</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_131</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_280</Id>
+      <Count>1</Count>
+    </Card>
+  </Cards>
+  <Class>Druid</Class>
+  <HearthStatsId />
+  <LastEdited>2016-04-30T09:45:45.2754414-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>330c303c-7f1a-4add-90eb-2c4f11c46957</DeckId>
+  <Name>RAMP - JAB</Name>
+  <SyncWithHearthStats xsi:nil="true" />
+  <Tags>
+    <Tag>Season 25</Tag>
+    <Tag>Legend</Tag>
+    <Tag>Ladder</Tag>
+  </Tags>
+</Deck>

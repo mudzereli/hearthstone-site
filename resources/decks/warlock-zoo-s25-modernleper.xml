@@ -72,7 +72,7 @@
   </Cards>
   <Class>Warlock</Class>
   <HearthStatsId />
-  <LastEdited>2016-04-27T07:56:42.7138363-05:00</LastEdited>
+  <LastEdited>2016-04-30T09:37:33.5363156-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -95,5 +95,10 @@
   <DeckId>85f1bd42-50ab-48e0-a0d5-0b1490d517ba</DeckId>
   <Name>ZOO - MODERNLEPER</Name>
   <SyncWithHearthStats xsi:nil="true" />
-  <Tags />
+  <Tags>
+    <Tag>Season 25</Tag>
+    <Tag>Top 20</Tag>
+    <Tag>Legend</Tag>
+    <Tag>Ladder</Tag>
+  </Tags>
 </Deck>

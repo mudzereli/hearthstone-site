@@ -84,7 +84,7 @@
   </Cards>
   <Class>Priest</Class>
   <HearthStatsId />
-  <LastEdited>2016-04-27T08:05:15.3011547-05:00</LastEdited>
+  <LastEdited>2016-04-30T09:42:03.9157804-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -107,5 +107,10 @@
   <DeckId>f67ed8a5-d46e-45b9-9946-7571b52fa2ad</DeckId>
   <Name>CONTROL - XIXO</Name>
   <SyncWithHearthStats xsi:nil="true" />
-  <Tags />
+  <Tags>
+    <Tag>Season 25</Tag>
+    <Tag>Top 100</Tag>
+    <Tag>Legend</Tag>
+    <Tag>Ladder</Tag>
+  </Tags>
 </Deck>

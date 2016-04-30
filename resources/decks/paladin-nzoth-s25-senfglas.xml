@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>EX1_360</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_619</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_021</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_096</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_020</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_007</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_382</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_097</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_093</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_337</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_017</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>BRM_001</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_147</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_295</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_110</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_016</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_354</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_229</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_383</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_133</Id>
+      <Count>1</Count>
+    </Card>
+  </Cards>
+  <Class>Paladin</Class>
+  <HearthStatsId />
+  <LastEdited>2016-04-30T11:33:42.6679271-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>38362175-01b3-4beb-8d2f-250abcfe9564</DeckId>
+  <Name>N'ZOTH - SENFGLAS</Name>
+  <SyncWithHearthStats xsi:nil="true" />
+  <Tags />
+</Deck>

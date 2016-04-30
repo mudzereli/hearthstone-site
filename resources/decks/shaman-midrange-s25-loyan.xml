@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>CS2_045</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_008</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_018</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_094</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_565</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_052</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_248</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_246</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_259</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_575</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>AT_046</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_595</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_093</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_024</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_567</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>CS2_046</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_284</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_028</Id>
+      <Count>2</Count>
+    </Card>
+  </Cards>
+  <Class>Shaman</Class>
+  <HearthStatsId />
+  <LastEdited>2016-04-30T08:57:09.0356421-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>7239a4cd-12d7-4728-89f0-0fcde073dc7a</DeckId>
+  <Name>MIDRANGE - LOYAN</Name>
+  <SyncWithHearthStats xsi:nil="true" />
+  <Tags>
+    <Tag>Season 25</Tag>
+    <Tag>#1</Tag>
+    <Tag>Legend</Tag>
+    <Tag>Ladder</Tag>
+  </Tags>
+</Deck>
