@@ -2,83 +2,75 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>CS2_072</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_145</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>CS2_073</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_128</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>CS2_074</Id>
+      <Id>EX1_245</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_124</Id>
+      <Id>EX1_238</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_581</Id>
+      <Id>CS2_045</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_278</Id>
+      <Id>CS2_188</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_012</Id>
+      <Id>EX1_008</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_076</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>CS2_117</Id>
+      <Id>LOE_018</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_613</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_134</Id>
+      <Id>AT_053</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>LOE_012</Id>
+      <Id>OG_026</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>OG_080</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_284</Id>
+      <Id>EX1_565</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>OG_291</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_095</Id>
+      <Id>AT_052</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>OG_134</Id>
-      <Count>1</Count>
+      <Id>EX1_248</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_241</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_087</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_024</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_567</Id>
+      <Count>2</Count>
     </Card>
   </Cards>
-  <Class>Rogue</Class>
+  <Class>Shaman</Class>
   <HearthStatsId />
-  <LastEdited>2016-04-30T13:06:22.337922-05:00</LastEdited>
+  <LastEdited>2016-04-30T08:58:37.2396871-05:00</LastEdited>
   <MissingCards />
-  <Url />
+  <Url>http://www.hearthpwn.com/decks/505896-top-100-legend-totally-broken-smorc-shaman</Url>
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -96,8 +88,12 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>63d4bf7a-fb4b-48e8-8d88-d165cd2f336d</DeckId>
-  <Name>YOGG - DOG</Name>
+  <DeckId>593b7a9d-6345-45af-b30b-1c71c97fcac9</DeckId>
+  <Name>AGGRO - SARANJIVAC</Name>
   <SyncWithHearthStats xsi:nil="true" />
-  <Tags />
+  <Tags>
+    <Tag>Season 25</Tag>
+    <Tag>Legend</Tag>
+    <Tag>Ladder</Tag>
+  </Tags>
 </Deck>

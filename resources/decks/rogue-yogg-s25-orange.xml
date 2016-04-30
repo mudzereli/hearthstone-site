@@ -10,18 +10,6 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>CS2_073</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_128</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>CS2_074</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>EX1_124</Id>
       <Count>2</Count>
     </Card>
@@ -30,16 +18,24 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_278</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
       <Id>EX1_012</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>CS2_117</Id>
+      <Id>OG_330</Id>
       <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_129</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_176</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>CS2_117</Id>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>EX1_613</Id>
@@ -51,6 +47,10 @@
     </Card>
     <Card>
       <Id>LOE_012</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_026</Id>
       <Count>2</Count>
     </Card>
     <Card>
@@ -62,12 +62,20 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>OG_291</Id>
+      <Id>BRM_008</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_095</Id>
+      <Id>OG_291</Id>
       <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_110</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_298</Id>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>OG_134</Id>
@@ -76,7 +84,7 @@
   </Cards>
   <Class>Rogue</Class>
   <HearthStatsId />
-  <LastEdited>2016-04-30T13:06:22.337922-05:00</LastEdited>
+  <LastEdited>2016-04-30T13:05:50.412096-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -96,8 +104,8 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>63d4bf7a-fb4b-48e8-8d88-d165cd2f336d</DeckId>
-  <Name>YOGG - DOG</Name>
+  <DeckId>bd49e8af-e15d-4b08-b668-80212a74b203</DeckId>
+  <Name>YOGG - ORANGE</Name>
   <SyncWithHearthStats xsi:nil="true" />
   <Tags />
 </Deck>
