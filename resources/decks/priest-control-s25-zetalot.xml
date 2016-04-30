@@ -66,10 +66,6 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>NEW1_040</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>AT_132</Id>
       <Count>1</Count>
     </Card>
@@ -77,10 +73,14 @@
       <Id>EX1_016</Id>
       <Count>1</Count>
     </Card>
+    <Card>
+      <Id>OG_318</Id>
+      <Count>1</Count>
+    </Card>
   </Cards>
   <Class>Priest</Class>
   <HearthStatsId />
-  <LastEdited>2016-04-30T09:00:06.9488181-05:00</LastEdited>
+  <LastEdited>2016-04-30T13:28:51.2140733-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
