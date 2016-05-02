@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>CS2_031</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_024</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_012</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_021</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_096</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_015</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_023</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_002</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_026</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_295</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_007</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_275</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_029</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_028</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>BRM_028</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_561</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_279</Id>
+      <Count>1</Count>
+    </Card>
+  </Cards>
+  <Class>Mage</Class>
+  <HearthStatsId />
+  <LastEdited>2016-04-30T08:58:21.0227595-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>0c41cda1-1f51-438f-a5c6-afc5bf1e688d</DeckId>
+  <Name>FREEZE - KORONEKO</Name>
+  <SyncWithHearthStats xsi:nil="true" />
+  <Tags>
+    <Tag>Season 25</Tag>
+    <Tag>Legend</Tag>
+    <Tag>Ladder</Tag>
+  </Tags>
+</Deck>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>OG_314</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_108</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_400</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_106</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_392</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_391</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_402</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_007</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_022</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_604</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_149</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_398</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_218</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_011</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_110</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_220</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_414</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_298</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>AT_072</Id>
+      <Count>1</Count>
+    </Card>
+  </Cards>
+  <Class>Warrior</Class>
+  <HearthStatsId />
+  <LastEdited>2016-05-02T06:33:17.2815286-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>9c9565be-d22a-47aa-9da6-59571e9da9c4</DeckId>
+  <Name>CONTROL - BOARCONTROL</Name>
+  <SyncWithHearthStats xsi:nil="true" />
+  <Tags>
+    <Tag>Season 25</Tag>
+    <Tag>Top 10</Tag>
+    <Tag>Legend</Tag>
+    <Tag>Ladder</Tag>
+  </Tags>
+</Deck>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>EX1_238</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_045</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_188</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_008</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_076</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>LOE_018</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_053</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_026</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_094</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_565</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>AT_052</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_248</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_241</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_087</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_024</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_567</Id>
+      <Count>2</Count>
+    </Card>
+  </Cards>
+  <Class>Shaman</Class>
+  <HearthStatsId />
+  <LastEdited>2016-05-02T06:32:34.3040705-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>6312c1a7-cb67-455a-a9d7-f6c225240b03</DeckId>
+  <Name>AGGRO - VLPS</Name>
+  <SyncWithHearthStats xsi:nil="true" />
+  <Tags>
+    <Tag>Season 25</Tag>
+    <Tag>Top 100</Tag>
+    <Tag>Legend</Tag>
+    <Tag>Ladder</Tag>
+  </Tags>
+</Deck>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>CS2_188</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_008</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_221</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_619</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_362</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_156</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_222</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_349</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_382</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>AT_087</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_590</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_310</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_097</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_092</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_093</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>LOE_017</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_273</Id>
+      <Count>1</Count>
+    </Card>
+  </Cards>
+  <Class>Paladin</Class>
+  <HearthStatsId />
+  <LastEdited>2016-05-02T06:32:56.8723613-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>ff5804ff-2e9a-4695-8bff-4dcf4351aeb6</DeckId>
+  <Name>AGGRO - SIXENM</Name>
+  <SyncWithHearthStats xsi:nil="true" />
+  <Tags>
+    <Tag>Season 25</Tag>
+    <Tag>Legend</Tag>
+    <Tag>Ladder</Tag>
+  </Tags>
+</Deck>
