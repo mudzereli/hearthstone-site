@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>OG_114</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_316</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_188</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_008</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_319</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_241</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_065</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_023</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_162</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_019</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_113</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>BRM_006</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_093</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_122</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_310</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_586</Id>
+      <Count>1</Count>
+    </Card>
+  </Cards>
+  <Class>Warlock</Class>
+  <HearthStatsId />
+  <LastEdited>2016-05-04T06:51:49.6737485-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>b5e9d200-e68c-4c1e-a12e-4d93bd22ceed</DeckId>
+  <Name>ZOO - TRUMP</Name>
+  <SyncWithHearthStats xsi:nil="true" />
+  <Tags />
+</Deck>

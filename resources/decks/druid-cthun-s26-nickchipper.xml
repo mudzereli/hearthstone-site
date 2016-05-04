@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>EX1_169</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_037</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_013</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_154</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_281</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_162</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_286</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_012</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_044</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_188</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_202</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_284</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_165</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_293</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>BRM_028</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_131</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_280</Id>
+      <Count>1</Count>
+    </Card>
+  </Cards>
+  <Class>Druid</Class>
+  <HearthStatsId />
+  <LastEdited>2016-05-04T06:50:51.4694194-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>7940fd59-0787-4f84-99d3-88b02eadc635</DeckId>
+  <Name>RAMP - NICKCHIPPER</Name>
+  <SyncWithHearthStats xsi:nil="true" />
+  <Tags />
+</Deck>
