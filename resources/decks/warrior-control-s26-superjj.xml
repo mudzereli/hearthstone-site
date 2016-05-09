@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>OG_314</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_108</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_410</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_106</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>BRM_015</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_391</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_064</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_606</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_007</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_149</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_218</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_407</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_558</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>AT_132</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_016</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_249</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_414</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_298</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>LOE_092</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_572</Id>
+      <Count>1</Count>
+    </Card>
+  </Cards>
+  <Class>Warrior</Class>
+  <HearthStatsDeckVersionId>11402259</HearthStatsDeckVersionId>
+  <HearthStatsId>10122659</HearthStatsId>
+  <LastEdited>2016-05-09T08:41:14.9011117-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>e8fc6f04-528b-4d8d-acb7-2b904231357d</DeckId>
+  <Name>CONTROL - SUPERJJ</Name>
+  <SyncWithHearthStats>true</SyncWithHearthStats>
+  <Tags>
+    <Tag>Top 16</Tag>
+    <Tag>DreamHack Austin 2016</Tag>
+  </Tags>
+  <HearthStatsIdForUploading>10122659</HearthStatsIdForUploading>
+</Deck>

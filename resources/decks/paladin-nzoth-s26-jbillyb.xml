@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>OG_198</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_360</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_619</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_021</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_020</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_007</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_382</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_556</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>CS2_097</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_093</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_249</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_017</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_041</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_110</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>AT_132</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_016</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_354</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_229</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_383</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_133</Id>
+      <Count>1</Count>
+    </Card>
+  </Cards>
+  <Class>Paladin</Class>
+  <HearthStatsDeckVersionId>11402023</HearthStatsDeckVersionId>
+  <HearthStatsId>10122451</HearthStatsId>
+  <LastEdited>2016-05-09T08:34:34.9032332-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>e4b385fb-605e-49ee-b567-1254801f30cb</DeckId>
+  <Name>N'ZOTH - JBILLYB</Name>
+  <SyncWithHearthStats>true</SyncWithHearthStats>
+  <Tags>
+    <Tag>Top 4</Tag>
+    <Tag>DreamHack Austin 2016</Tag>
+  </Tags>
+  <HearthStatsIdForUploading>10122451</HearthStatsIdForUploading>
+</Deck>

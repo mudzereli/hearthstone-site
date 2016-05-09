@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>CS2_072</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_145</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_073</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_128</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_074</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_124</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_581</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_278</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_012</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_129</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_176</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>CS2_117</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_613</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_134</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_012</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_080</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_284</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_095</Id>
+      <Count>2</Count>
+    </Card>
+  </Cards>
+  <Class>Rogue</Class>
+  <HearthStatsDeckVersionId>11402102</HearthStatsDeckVersionId>
+  <HearthStatsId>10122519</HearthStatsId>
+  <LastEdited>2016-05-09T08:37:12.4522445-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>0e6877e3-c8d6-4de4-9425-2fb1d9c20f80</DeckId>
+  <Name>MIRACLE - PAYTON</Name>
+  <SyncWithHearthStats>true</SyncWithHearthStats>
+  <Tags>
+    <Tag>Top 4</Tag>
+    <Tag>DreamHack Austin 2016</Tag>
+  </Tags>
+  <HearthStatsIdForUploading>10122519</HearthStatsIdForUploading>
+</Deck>
