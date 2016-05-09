@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>CS2_072</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_145</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_073</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_128</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>CS2_074</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_124</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_581</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_278</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_012</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_129</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_176</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>CS2_117</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_613</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_134</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_012</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_026</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_080</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_284</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_095</Id>
+      <Count>2</Count>
+    </Card>
+  </Cards>
+  <Class>Rogue</Class>
+  <HearthStatsId />
+  <LastEdited>2016-05-07T08:45:40.5847133-05:00</LastEdited>
+  <MissingCards />
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>cfbe902c-6efa-4b48-a465-a80cbb3b385d</DeckId>
+  <Name>MIRACLE - RYZEN</Name>
+  <SyncWithHearthStats xsi:nil="true" />
+  <Tags />
+</Deck>

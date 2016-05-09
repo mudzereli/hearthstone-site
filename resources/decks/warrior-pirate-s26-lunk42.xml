@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cards>
+    <Card>
+      <Id>EX1_409</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_312</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_076</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>CS2_146</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_106</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_018</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_094</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_065</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_315</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_022</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_027</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_022</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_011</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_112</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_024</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_116</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_002</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>AT_070</Id>
+      <Count>1</Count>
+    </Card>
+  </Cards>
+  <Class>Warrior</Class>
+  <HearthStatsId />
+  <LastEdited>2016-05-08T19:42:43.5553756-05:00</LastEdited>
+  <MissingCards>
+    <Card>
+      <Id>NEW1_027</Id>
+      <Count>1</Count>
+    </Card>
+  </MissingCards>
+  <Url />
+  <Version>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </Version>
+  <DeckHistory />
+  <Archived>false</Archived>
+  <Note />
+  <SelectedVersion>
+    <Build>0</Build>
+    <Major>1</Major>
+    <Minor>0</Minor>
+    <Revision>0</Revision>
+  </SelectedVersion>
+  <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
+  <IsArenaDeck>false</IsArenaDeck>
+  <DeckId>7f586f8e-db92-4aea-ae1d-222f09d06ed5</DeckId>
+  <Name>PIRATE - LUNK42</Name>
+  <SyncWithHearthStats xsi:nil="true" />
+  <Tags />
+</Deck>
