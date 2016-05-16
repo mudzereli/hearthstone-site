@@ -6,20 +6,16 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_302</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>EX1_316</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_308</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>CS2_188</Id>
       <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_008</Id>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>EX1_319</Id>
@@ -66,8 +62,8 @@
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_116</Id>
-      <Count>1</Count>
+      <Id>EX1_310</Id>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_586</Id>
@@ -75,11 +71,11 @@
     </Card>
   </Cards>
   <Class>Warlock</Class>
-  <HearthStatsDeckVersionId>11601839</HearthStatsDeckVersionId>
-  <HearthStatsId>10295642</HearthStatsId>
-  <LastEdited>2016-05-13T22:12:54.5607602-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11593531</HearthStatsDeckVersionId>
+  <HearthStatsId>10288443</HearthStatsId>
+  <LastEdited>2016-05-13T16:53:15.7557953-05:00</LastEdited>
   <MissingCards />
-  <Url>http://www.hearthstonetopdeck.com/deck/standard/5494/zoo-chakki</Url>
+  <Url />
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -97,9 +93,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>5fc4b542-fa33-4369-82e7-1aaa86e41a59</DeckId>
-  <Name>ZOO - CHAKKI</Name>
+  <DeckId>c1281906-85e1-45df-b5e0-1bd0f638b308</DeckId>
+  <Name>ZOO</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10295642</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10288443</HearthStatsIdForUploading>
 </Deck>

@@ -2,84 +2,93 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>OG_114</Id>
+      <Id>EX1_169</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_302</Id>
+      <Id>AT_037</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_115</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_316</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_308</Id>
+      <Id>OG_051</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>CS2_188</Id>
+      <Id>OG_048</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_319</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>OG_241</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>CS2_065</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_059</Id>
+      <Id>EX1_160</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>LOE_023</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_162</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>NEW1_019</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>OG_113</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>BRM_006</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_093</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>AT_122</Id>
+      <Id>EX1_154</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_116</Id>
+      <Id>AT_038</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_586</Id>
+      <Id>AT_042</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_011</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>BRM_010</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_050</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>CS2_012</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_044</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>AT_039</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_026</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_284</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_165</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_110</Id>
       <Count>1</Count>
     </Card>
   </Cards>
-  <Class>Warlock</Class>
-  <HearthStatsDeckVersionId>11601839</HearthStatsDeckVersionId>
-  <HearthStatsId>10295642</HearthStatsId>
-  <LastEdited>2016-05-13T22:12:54.5607602-05:00</LastEdited>
-  <MissingCards />
-  <Url>http://www.hearthstonetopdeck.com/deck/standard/5494/zoo-chakki</Url>
+  <Class>Druid</Class>
+  <HearthStatsDeckVersionId>11694007</HearthStatsDeckVersionId>
+  <HearthStatsId>10375587</HearthStatsId>
+  <LastEdited>2016-05-15T23:25:14.8345432-05:00</LastEdited>
+  <MissingCards>
+    <Card>
+      <Id>OG_051</Id>
+      <Count>1</Count>
+    </Card>
+  </MissingCards>
+  <Url />
   <Version>
     <Build>0</Build>
     <Major>1</Major>
@@ -97,9 +106,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>5fc4b542-fa33-4369-82e7-1aaa86e41a59</DeckId>
-  <Name>ZOO - CHAKKI</Name>
+  <DeckId>5709ef19-b66b-42a7-8a1f-35f167e36599</DeckId>
+  <Name>BEAST - STANDARD</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10295642</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10375587</HearthStatsIdForUploading>
 </Deck>
