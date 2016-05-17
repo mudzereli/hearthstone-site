@@ -7,7 +7,7 @@
     </Card>
     <Card>
       <Id>AT_055</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>CS2_004</Id>
@@ -43,15 +43,7 @@
     </Card>
     <Card>
       <Id>LOE_111</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>CS1_112</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>OG_147</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>OG_234</Id>
@@ -59,14 +51,10 @@
     </Card>
     <Card>
       <Id>LOE_104</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_091</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_110</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -83,9 +71,9 @@
     </Card>
   </Cards>
   <Class>Priest</Class>
-  <HearthStatsDeckVersionId>11693681</HearthStatsDeckVersionId>
-  <HearthStatsId>10375320</HearthStatsId>
-  <LastEdited>2016-05-15T23:04:50.3585071-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11739450</HearthStatsDeckVersionId>
+  <HearthStatsId>10414967</HearthStatsId>
+  <LastEdited>2016-05-16T22:38:38.7254122-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -105,9 +93,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>32b735c1-0c1c-4035-bdbb-eaa052ffb309</DeckId>
-  <Name>NZOTH - STANDARD</Name>
+  <DeckId>4cc1d876-043f-4b10-bc96-2085fe8ec771</DeckId>
+  <Name>NZOTH</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10375320</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10414967</HearthStatsIdForUploading>
 </Deck>

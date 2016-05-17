@@ -19,7 +19,7 @@
     </Card>
     <Card>
       <Id>CS2_074</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_124</Id>
@@ -28,10 +28,6 @@
     <Card>
       <Id>EX1_581</Id>
       <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_278</Id>
-      <Count>1</Count>
     </Card>
     <Card>
       <Id>EX1_012</Id>
@@ -79,9 +75,9 @@
     </Card>
   </Cards>
   <Class>Rogue</Class>
-  <HearthStatsDeckVersionId>11692744</HearthStatsDeckVersionId>
-  <HearthStatsId>10374513</HearthStatsId>
-  <LastEdited>2016-05-15T22:16:28.49353-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11738773</HearthStatsDeckVersionId>
+  <HearthStatsId>10414392</HearthStatsId>
+  <LastEdited>2016-05-16T22:08:29.6599396-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -101,9 +97,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>f05d4e10-1fed-487c-a097-2906692639a7</DeckId>
-  <Name>MIRACLE - STANDARD</Name>
+  <DeckId>02658caf-5c89-4f31-92e4-ea6a577e4f30</DeckId>
+  <Name>MIRACLE</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10374513</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10414392</HearthStatsIdForUploading>
 </Deck>

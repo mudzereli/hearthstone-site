@@ -2,90 +2,82 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>OG_314</Id>
+      <Id>AT_004</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>CS2_108</Id>
+      <Id>EX1_277</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_410</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>CS2_106</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_391</Id>
+      <Id>CS2_027</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>OG_281</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_606</Id>
+      <Id>NEW1_012</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_007</Id>
+      <Id>CS2_024</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>LOE_077</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>OG_162</Id>
+      <Id>OG_303</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>OG_149</Id>
+      <Id>EX1_608</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>OG_283</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_407</Id>
+      <Id>CS2_023</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>AT_132</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_016</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_411</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>OG_301</Id>
+      <Id>BRM_002</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>OG_131</Id>
+      <Id>AT_007</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>OG_255</Id>
+      <Id>CS2_029</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_033</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_284</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_003</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>OG_280</Id>
+      <Id>OG_207</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>CS2_032</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_559</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_134</Id>
       <Count>1</Count>
     </Card>
   </Cards>
-  <Class>Warrior</Class>
-  <HearthStatsDeckVersionId>11739270</HearthStatsDeckVersionId>
-  <HearthStatsId>10414812</HearthStatsId>
-  <LastEdited>2016-05-16T22:30:11.3963946-05:00</LastEdited>
+  <Class>Mage</Class>
+  <HearthStatsDeckVersionId>11739315</HearthStatsDeckVersionId>
+  <HearthStatsId>10414854</HearthStatsId>
+  <LastEdited>2016-05-16T22:32:22.2038764-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -105,9 +97,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>90ea0362-8c20-46bf-9644-9e21ce4ed5b2</DeckId>
-  <Name>CTHUN</Name>
+  <DeckId>c560dca4-bc28-48a8-b9dd-d41acc12fff5</DeckId>
+  <Name>TEMPO</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10414812</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10414854</HearthStatsIdForUploading>
 </Deck>

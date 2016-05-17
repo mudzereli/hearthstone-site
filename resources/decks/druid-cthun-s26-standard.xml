@@ -47,11 +47,7 @@
     </Card>
     <Card>
       <Id>OG_202</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_164</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_284</Id>
@@ -79,9 +75,9 @@
     </Card>
   </Cards>
   <Class>Druid</Class>
-  <HearthStatsDeckVersionId>11693238</HearthStatsDeckVersionId>
-  <HearthStatsId>10374943</HearthStatsId>
-  <LastEdited>2016-05-15T22:41:42.7721417-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11739087</HearthStatsDeckVersionId>
+  <HearthStatsId>10414660</HearthStatsId>
+  <LastEdited>2016-05-16T22:22:24.766705-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -101,9 +97,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>e9318b71-2351-48f1-9d50-233dd8bb6340</DeckId>
-  <Name>CTHUN - STANDARD</Name>
+  <DeckId>9cbf0114-bbb6-4f04-a4a2-4d2a77a99187</DeckId>
+  <Name>CTHUN</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10374943</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10414660</HearthStatsIdForUploading>
 </Deck>

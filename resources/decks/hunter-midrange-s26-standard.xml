@@ -23,7 +23,7 @@
     </Card>
     <Card>
       <Id>LOE_046</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>AT_058</Id>
@@ -70,10 +70,6 @@
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_028</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>EX1_534</Id>
       <Count>2</Count>
     </Card>
@@ -83,9 +79,9 @@
     </Card>
   </Cards>
   <Class>Hunter</Class>
-  <HearthStatsDeckVersionId>11693330</HearthStatsDeckVersionId>
-  <HearthStatsId>10375027</HearthStatsId>
-  <LastEdited>2016-05-15T22:45:51.2863559-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11739214</HearthStatsDeckVersionId>
+  <HearthStatsId>10414765</HearthStatsId>
+  <LastEdited>2016-05-16T22:27:36.4125301-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -105,9 +101,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>0df8746a-2ff6-4112-84fd-51e2e6700fc3</DeckId>
-  <Name>MIDRANGE - STANDARD</Name>
+  <DeckId>9afdd98c-d05f-4be7-b464-2daae5441492</DeckId>
+  <Name>MIDRANGE</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10375027</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10414765</HearthStatsIdForUploading>
 </Deck>

@@ -39,7 +39,7 @@
     </Card>
     <Card>
       <Id>EX1_289</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_295</Id>
@@ -47,10 +47,6 @@
     </Card>
     <Card>
       <Id>EX1_007</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_275</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -79,9 +75,9 @@
     </Card>
   </Cards>
   <Class>Mage</Class>
-  <HearthStatsDeckVersionId>11693158</HearthStatsDeckVersionId>
-  <HearthStatsId>10374872</HearthStatsId>
-  <LastEdited>2016-05-15T22:36:48.4543077-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11738951</HearthStatsDeckVersionId>
+  <HearthStatsId>10414546</HearthStatsId>
+  <LastEdited>2016-05-16T22:16:27.6002762-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -101,9 +97,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>c7d77c08-8e27-4633-aace-77f0fcb5cb24</DeckId>
-  <Name>FREEZE - STANDARD</Name>
+  <DeckId>81dac7c6-11c0-44b6-bae1-4f0e6f30482a</DeckId>
+  <Name>FREEZE</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10374872</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10414546</HearthStatsIdForUploading>
 </Deck>

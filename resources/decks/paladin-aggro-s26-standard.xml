@@ -2,10 +2,6 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>CS2_087</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>OG_223</Id>
       <Count>1</Count>
     </Card>
@@ -27,14 +23,10 @@
     </Card>
     <Card>
       <Id>OG_156</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>AT_094</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>NEW1_019</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -63,7 +55,7 @@
     </Card>
     <Card>
       <Id>CS2_092</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>CS2_093</Id>
@@ -83,9 +75,9 @@
     </Card>
   </Cards>
   <Class>Paladin</Class>
-  <HearthStatsDeckVersionId>11693591</HearthStatsDeckVersionId>
-  <HearthStatsId>10375241</HearthStatsId>
-  <LastEdited>2016-05-15T22:59:54.5675889-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11739367</HearthStatsDeckVersionId>
+  <HearthStatsId>10414900</HearthStatsId>
+  <LastEdited>2016-05-16T22:34:44.8910376-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -105,9 +97,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>74b57b65-9490-4a99-acf9-8359ebe796da</DeckId>
-  <Name>AGGRO - STANDARD</Name>
+  <DeckId>161c4d70-dc34-433c-ab22-685dfb7feb02</DeckId>
+  <Name>AGGRO</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10375241</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10414900</HearthStatsIdForUploading>
 </Deck>

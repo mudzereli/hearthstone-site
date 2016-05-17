@@ -10,28 +10,20 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>LOE_115</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>OG_051</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>OG_048</Id>
       <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_160</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_154</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>AT_038</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>AT_042</Id>
@@ -73,21 +65,12 @@
       <Id>EX1_165</Id>
       <Count>2</Count>
     </Card>
-    <Card>
-      <Id>EX1_110</Id>
-      <Count>1</Count>
-    </Card>
   </Cards>
   <Class>Druid</Class>
-  <HearthStatsDeckVersionId>11694007</HearthStatsDeckVersionId>
-  <HearthStatsId>10375587</HearthStatsId>
-  <LastEdited>2016-05-15T23:25:14.8345432-05:00</LastEdited>
-  <MissingCards>
-    <Card>
-      <Id>OG_051</Id>
-      <Count>1</Count>
-    </Card>
-  </MissingCards>
+  <HearthStatsDeckVersionId>11739612</HearthStatsDeckVersionId>
+  <HearthStatsId>10415105</HearthStatsId>
+  <LastEdited>2016-05-16T22:46:10.5372544-05:00</LastEdited>
+  <MissingCards />
   <Url />
   <Version>
     <Build>0</Build>
@@ -106,9 +89,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>5709ef19-b66b-42a7-8a1f-35f167e36599</DeckId>
-  <Name>BEAST - STANDARD</Name>
+  <DeckId>e7f6a5ec-1e53-41fe-a830-bba5aadc22db</DeckId>
+  <Name>BEAST</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10375587</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10415105</HearthStatsIdForUploading>
 </Deck>
