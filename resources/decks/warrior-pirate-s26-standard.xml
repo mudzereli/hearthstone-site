@@ -2,14 +2,6 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>OG_314</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>CS2_108</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>EX1_409</Id>
       <Count>2</Count>
     </Card>
@@ -30,15 +22,15 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>CS2_105</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>NEW1_018</Id>
       <Count>2</Count>
     </Card>
     <Card>
       <Id>AT_094</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>AT_065</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -47,23 +39,15 @@
     </Card>
     <Card>
       <Id>LOE_022</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_604</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>NEW1_027</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_408</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_398</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>NEW1_022</Id>
@@ -87,9 +71,9 @@
     </Card>
   </Cards>
   <Class>Warrior</Class>
-  <HearthStatsDeckVersionId>11739496</HearthStatsDeckVersionId>
-  <HearthStatsId>10415012</HearthStatsId>
-  <LastEdited>2016-05-16T22:40:50.7559639-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11823913</HearthStatsDeckVersionId>
+  <HearthStatsId>10487640</HearthStatsId>
+  <LastEdited>2016-05-18T20:21:37.9048474-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -109,9 +93,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>392a759c-8456-4fa8-b7bc-0fdb27616801</DeckId>
+  <DeckId>40a0e4ff-79db-4d38-bf3d-3b0a1ecdd17f</DeckId>
   <Name>PIRATE</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10415012</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10487640</HearthStatsIdForUploading>
 </Deck>

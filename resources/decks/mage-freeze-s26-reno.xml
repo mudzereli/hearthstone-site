@@ -23,7 +23,7 @@
     </Card>
     <Card>
       <Id>EX1_015</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>CS2_023</Id>
@@ -47,6 +47,10 @@
     </Card>
     <Card>
       <Id>EX1_007</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_050</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -83,9 +87,9 @@
     </Card>
   </Cards>
   <Class>Mage</Class>
-  <HearthStatsDeckVersionId>11738974</HearthStatsDeckVersionId>
-  <HearthStatsId>10414567</HearthStatsId>
-  <LastEdited>2016-05-16T22:17:32.7800043-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11823794</HearthStatsDeckVersionId>
+  <HearthStatsId>10487543</HearthStatsId>
+  <LastEdited>2016-05-18T20:19:08.4602996-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -105,9 +109,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>a823e915-b119-44fe-a20d-d5f6ae0b1076</DeckId>
+  <DeckId>21955904-c639-48cf-8fb8-32b01dda84db</DeckId>
   <Name>RENO FREEZE</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10414567</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10487543</HearthStatsIdForUploading>
 </Deck>

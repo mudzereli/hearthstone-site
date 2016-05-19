@@ -2,10 +2,6 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>OG_101</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>CS2_004</Id>
       <Count>2</Count>
     </Card>
@@ -66,6 +62,10 @@
       <Count>2</Count>
     </Card>
     <Card>
+      <Id>EX1_016</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
       <Id>BRM_030</Id>
       <Count>1</Count>
     </Card>
@@ -75,9 +75,9 @@
     </Card>
   </Cards>
   <Class>Priest</Class>
-  <HearthStatsDeckVersionId>11739541</HearthStatsDeckVersionId>
-  <HearthStatsId>10415049</HearthStatsId>
-  <LastEdited>2016-05-16T22:42:56.4541534-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11823953</HearthStatsDeckVersionId>
+  <HearthStatsId>10487672</HearthStatsId>
+  <LastEdited>2016-05-18T20:22:54.4302244-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -97,9 +97,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>513f7f8c-404b-450e-8fc6-090b11ffbfd3</DeckId>
+  <DeckId>95b07327-8aa9-419e-9797-6a0458b1ecc6</DeckId>
   <Name>DRAGON</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10415049</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10487672</HearthStatsIdForUploading>
 </Deck>

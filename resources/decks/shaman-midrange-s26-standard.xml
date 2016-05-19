@@ -2,6 +2,10 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
+      <Id>OG_023</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
       <Id>CS2_045</Id>
       <Count>2</Count>
     </Card>
@@ -35,11 +39,11 @@
     </Card>
     <Card>
       <Id>EX1_259</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>EX1_575</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>AT_046</Id>
@@ -47,7 +51,7 @@
     </Card>
     <Card>
       <Id>OG_024</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>OG_328</Id>
@@ -75,9 +79,9 @@
     </Card>
   </Cards>
   <Class>Shaman</Class>
-  <HearthStatsDeckVersionId>11693094</HearthStatsDeckVersionId>
-  <HearthStatsId>10374815</HearthStatsId>
-  <LastEdited>2016-05-15T22:33:36.6783388-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11823611</HearthStatsDeckVersionId>
+  <HearthStatsId>10487386</HearthStatsId>
+  <LastEdited>2016-05-18T20:10:06.2812888-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -97,9 +101,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>eccc238b-f2fe-4121-afbf-43f910ab3237</DeckId>
-  <Name>MIDRANGE - STANDARD</Name>
+  <DeckId>c8ac8f20-fc1c-4981-a61c-2ffa9a10d9c9</DeckId>
+  <Name>MIDRANGE</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10374815</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10487386</HearthStatsIdForUploading>
 </Deck>

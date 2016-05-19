@@ -22,10 +22,6 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>AT_038</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>AT_044</Id>
       <Count>1</Count>
     </Card>
@@ -42,10 +38,6 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_048</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>EX1_164</Id>
       <Count>1</Count>
     </Card>
@@ -56,6 +48,14 @@
     <Card>
       <Id>EX1_165</Id>
       <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>LOE_038</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_110</Id>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>BRM_028</Id>
@@ -87,9 +87,9 @@
     </Card>
   </Cards>
   <Class>Druid</Class>
-  <HearthStatsDeckVersionId>11693221</HearthStatsDeckVersionId>
-  <HearthStatsId>10374928</HearthStatsId>
-  <LastEdited>2016-05-15T22:40:32.7281355-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11823995</HearthStatsDeckVersionId>
+  <HearthStatsId>10487705</HearthStatsId>
+  <LastEdited>2016-05-18T20:24:25.9314579-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -109,9 +109,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>c8ecf8f5-78a6-4e2b-918e-0f433c9de32a</DeckId>
-  <Name>RAMP - STANDARD</Name>
+  <DeckId>9da2d457-a634-40c2-aaaf-d4f7e5bbaee5</DeckId>
+  <Name>RAMP</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10374928</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10487705</HearthStatsIdForUploading>
 </Deck>

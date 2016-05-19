@@ -35,7 +35,7 @@
     </Card>
     <Card>
       <Id>EX1_339</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>EX1_007</Id>
@@ -67,7 +67,7 @@
     </Card>
     <Card>
       <Id>EX1_091</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>AT_132</Id>
@@ -79,9 +79,9 @@
     </Card>
   </Cards>
   <Class>Priest</Class>
-  <HearthStatsDeckVersionId>11693869</HearthStatsDeckVersionId>
-  <HearthStatsId>10375470</HearthStatsId>
-  <LastEdited>2016-05-15T23:16:52.862832-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11824268</HearthStatsDeckVersionId>
+  <HearthStatsId>10487931</HearthStatsId>
+  <LastEdited>2016-05-18T20:35:06.3680888-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -101,9 +101,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>aac21bb0-5290-4a25-9e0d-bfdf2bbbd862</DeckId>
-  <Name>CONTROL - STANDARD</Name>
+  <DeckId>ee678ead-2d30-45d2-8f05-5272ed45689d</DeckId>
+  <Name>CONTROL</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10375470</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10487931</HearthStatsIdForUploading>
 </Deck>
