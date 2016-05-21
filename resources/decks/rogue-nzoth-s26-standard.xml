@@ -30,6 +30,10 @@
       <Count>1</Count>
     </Card>
     <Card>
+      <Id>OG_176</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
       <Id>CS2_117</Id>
       <Count>1</Count>
     </Card>
@@ -47,7 +51,7 @@
     </Card>
     <Card>
       <Id>EX1_093</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>LOE_012</Id>
@@ -66,8 +70,12 @@
       <Count>2</Count>
     </Card>
     <Card>
+      <Id>BRM_008</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
       <Id>OG_291</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>EX1_110</Id>
@@ -83,9 +91,9 @@
     </Card>
   </Cards>
   <Class>Rogue</Class>
-  <HearthStatsDeckVersionId>11825456</HearthStatsDeckVersionId>
-  <HearthStatsId>10488940</HearthStatsId>
-  <LastEdited>2016-05-18T21:27:18.5592399-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907713</HearthStatsDeckVersionId>
+  <HearthStatsId>10559407</HearthStatsId>
+  <LastEdited>2016-05-20T19:06:45.6535954-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -105,9 +113,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>838db2cf-c37e-43c2-8c93-31ef71761e99</DeckId>
+  <DeckId>a75a96e9-a42c-4fea-b041-5f3bcc95fe7b</DeckId>
   <Name>NZOTH</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10488940</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559407</HearthStatsIdForUploading>
 </Deck>

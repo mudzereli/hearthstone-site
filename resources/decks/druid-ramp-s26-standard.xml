@@ -38,6 +38,10 @@
       <Count>2</Count>
     </Card>
     <Card>
+      <Id>EX1_048</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
       <Id>EX1_164</Id>
       <Count>1</Count>
     </Card>
@@ -48,10 +52,6 @@
     <Card>
       <Id>EX1_165</Id>
       <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>LOE_038</Id>
-      <Count>1</Count>
     </Card>
     <Card>
       <Id>EX1_110</Id>
@@ -87,9 +87,9 @@
     </Card>
   </Cards>
   <Class>Druid</Class>
-  <HearthStatsDeckVersionId>11823995</HearthStatsDeckVersionId>
-  <HearthStatsId>10487705</HearthStatsId>
-  <LastEdited>2016-05-18T20:24:25.9314579-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907640</HearthStatsDeckVersionId>
+  <HearthStatsId>10559350</HearthStatsId>
+  <LastEdited>2016-05-20T19:07:40.9067557-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -109,9 +109,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>9da2d457-a634-40c2-aaaf-d4f7e5bbaee5</DeckId>
+  <DeckId>cb5c8164-7021-4cad-861d-2c0117a9d41b</DeckId>
   <Name>RAMP</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487705</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559350</HearthStatsIdForUploading>
 </Deck>

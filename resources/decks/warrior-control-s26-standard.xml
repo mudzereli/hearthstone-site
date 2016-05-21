@@ -15,11 +15,11 @@
     </Card>
     <Card>
       <Id>BRM_015</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_391</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>NEW1_021</Id>
@@ -81,19 +81,11 @@
       <Id>EX1_298</Id>
       <Count>1</Count>
     </Card>
-    <Card>
-      <Id>EX1_561</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
-      <Id>EX1_572</Id>
-      <Count>1</Count>
-    </Card>
   </Cards>
   <Class>Warrior</Class>
-  <HearthStatsDeckVersionId>11823879</HearthStatsDeckVersionId>
-  <HearthStatsId>10487614</HearthStatsId>
-  <LastEdited>2016-05-18T20:20:12.3299528-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907551</HearthStatsDeckVersionId>
+  <HearthStatsId>10559268</HearthStatsId>
+  <LastEdited>2016-05-20T19:00:42.8218426-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -113,9 +105,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>14700868-a428-4c80-a23e-abec77f13d16</DeckId>
+  <DeckId>594b3b1b-6c68-457c-9728-df80bf285f2c</DeckId>
   <Name>CONTROL</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487614</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559268</HearthStatsIdForUploading>
 </Deck>

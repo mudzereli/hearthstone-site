@@ -34,6 +34,10 @@
       <Count>2</Count>
     </Card>
     <Card>
+      <Id>EX1_059</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
       <Id>LOE_023</Id>
       <Count>2</Count>
     </Card>
@@ -46,10 +50,6 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>LOE_077</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>OG_113</Id>
       <Count>2</Count>
     </Card>
@@ -58,12 +58,12 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_093</Id>
-      <Count>2</Count>
+      <Id>EX1_046</Id>
+      <Count>1</Count>
     </Card>
     <Card>
-      <Id>AT_122</Id>
-      <Count>1</Count>
+      <Id>EX1_093</Id>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_116</Id>
@@ -75,9 +75,9 @@
     </Card>
   </Cards>
   <Class>Warlock</Class>
-  <HearthStatsDeckVersionId>11823691</HearthStatsDeckVersionId>
-  <HearthStatsId>10487453</HearthStatsId>
-  <LastEdited>2016-05-18T20:13:07.6226609-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907458</HearthStatsDeckVersionId>
+  <HearthStatsId>10559186</HearthStatsId>
+  <LastEdited>2016-05-20T18:57:22.8804066-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -97,9 +97,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>00201e0f-240a-4782-9f76-28c9062e5bbc</DeckId>
+  <DeckId>7623b127-48c3-46f6-8673-944f651c5b97</DeckId>
   <Name>ZOO - LEEROY</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487453</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559186</HearthStatsIdForUploading>
 </Deck>

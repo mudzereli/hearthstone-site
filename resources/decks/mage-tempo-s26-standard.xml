@@ -47,11 +47,11 @@
     </Card>
     <Card>
       <Id>CS2_033</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>OG_090</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>EX1_284</Id>
@@ -59,7 +59,11 @@
     </Card>
     <Card>
       <Id>LOE_003</Id>
-      <Count>2</Count>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_207</Id>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>CS2_032</Id>
@@ -75,9 +79,9 @@
     </Card>
   </Cards>
   <Class>Mage</Class>
-  <HearthStatsDeckVersionId>11823893</HearthStatsDeckVersionId>
-  <HearthStatsId>10487624</HearthStatsId>
-  <LastEdited>2016-05-18T20:20:53.5813122-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907566</HearthStatsDeckVersionId>
+  <HearthStatsId>10559283</HearthStatsId>
+  <LastEdited>2016-05-20T19:01:37.4519673-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -97,9 +101,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>cbf0cc97-a7d3-43fa-a8f4-d50be0830366</DeckId>
+  <DeckId>153e02b7-49a0-4543-b8a4-91858afe3256</DeckId>
   <Name>TEMPO</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487624</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559283</HearthStatsIdForUploading>
 </Deck>

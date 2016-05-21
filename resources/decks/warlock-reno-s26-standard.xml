@@ -62,6 +62,10 @@
       <Count>1</Count>
     </Card>
     <Card>
+      <Id>CS2_179</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
       <Id>EX1_048</Id>
       <Count>1</Count>
     </Card>
@@ -110,10 +114,6 @@
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_561</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>EX1_323</Id>
       <Count>1</Count>
     </Card>
@@ -123,9 +123,9 @@
     </Card>
   </Cards>
   <Class>Warlock</Class>
-  <HearthStatsDeckVersionId>11823771</HearthStatsDeckVersionId>
-  <HearthStatsId>10487522</HearthStatsId>
-  <LastEdited>2016-05-18T20:16:28.9551765-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907504</HearthStatsDeckVersionId>
+  <HearthStatsId>10559227</HearthStatsId>
+  <LastEdited>2016-05-20T18:58:43.8820397-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -145,9 +145,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>12e46d2f-6d2a-4f1c-8263-a1613bf083c6</DeckId>
+  <DeckId>343ea8bc-2648-4b62-8f21-5805cd1be079</DeckId>
   <Name>RENO</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487522</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559227</HearthStatsIdForUploading>
 </Deck>

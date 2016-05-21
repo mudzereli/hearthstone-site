@@ -31,7 +31,7 @@
     </Card>
     <Card>
       <Id>AT_053</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>OG_026</Id>
@@ -43,7 +43,7 @@
     </Card>
     <Card>
       <Id>EX1_565</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>AT_052</Id>
@@ -71,9 +71,9 @@
     </Card>
   </Cards>
   <Class>Shaman</Class>
-  <HearthStatsDeckVersionId>11823751</HearthStatsDeckVersionId>
-  <HearthStatsId>10487506</HearthStatsId>
-  <LastEdited>2016-05-18T20:15:38.2912786-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907496</HearthStatsDeckVersionId>
+  <HearthStatsId>10559219</HearthStatsId>
+  <LastEdited>2016-05-20T18:58:30.7872907-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -93,9 +93,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>fdcda05d-65fc-429f-96f9-be5a5a3e66ff</DeckId>
+  <DeckId>54300c1c-1aad-48f2-87d7-8eb4db391a2e</DeckId>
   <Name>AGGRO</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487506</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559219</HearthStatsIdForUploading>
 </Deck>

@@ -2,6 +2,10 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
+      <Id>CS2_087</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
       <Id>CS2_188</Id>
       <Count>2</Count>
     </Card>
@@ -14,7 +18,7 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_619</Id>
+      <Id>LOE_076</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -26,11 +30,11 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>AT_094</Id>
+      <Id>EX1_059</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>NEW1_019</Id>
+      <Id>AT_094</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -51,11 +55,11 @@
     </Card>
     <Card>
       <Id>OG_310</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>CS2_097</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>CS2_092</Id>
@@ -63,6 +67,10 @@
     </Card>
     <Card>
       <Id>CS2_093</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_093</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -75,9 +83,9 @@
     </Card>
   </Cards>
   <Class>Paladin</Class>
-  <HearthStatsDeckVersionId>11824314</HearthStatsDeckVersionId>
-  <HearthStatsId>10487972</HearthStatsId>
-  <LastEdited>2016-05-18T20:36:34.0351031-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907699</HearthStatsDeckVersionId>
+  <HearthStatsId>10559397</HearthStatsId>
+  <LastEdited>2016-05-20T19:05:49.3643759-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -97,9 +105,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>7154fc85-7907-4d57-ab79-532cda773e9a</DeckId>
+  <DeckId>4e12e9ce-e4a9-4470-ba4d-86770833e581</DeckId>
   <Name>AGGRO</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487972</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559397</HearthStatsIdForUploading>
 </Deck>

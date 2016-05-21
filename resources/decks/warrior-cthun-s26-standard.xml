@@ -3,7 +3,7 @@
   <Cards>
     <Card>
       <Id>OG_314</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>CS2_108</Id>
@@ -47,7 +47,7 @@
     </Card>
     <Card>
       <Id>OG_283</Id>
-      <Count>1</Count>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_407</Id>
@@ -83,9 +83,9 @@
     </Card>
   </Cards>
   <Class>Warrior</Class>
-  <HearthStatsDeckVersionId>11823909</HearthStatsDeckVersionId>
-  <HearthStatsId>10487637</HearthStatsId>
-  <LastEdited>2016-05-18T20:21:22.197949-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907593</HearthStatsDeckVersionId>
+  <HearthStatsId>10559306</HearthStatsId>
+  <LastEdited>2016-05-20T19:01:59.1402078-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -105,9 +105,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>11f70a74-ce44-4119-a135-af91ac7f888e</DeckId>
+  <DeckId>f8a1c859-26a0-4037-863d-a4b13ee4ab66</DeckId>
   <Name>CTHUN</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487637</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559306</HearthStatsIdForUploading>
 </Deck>

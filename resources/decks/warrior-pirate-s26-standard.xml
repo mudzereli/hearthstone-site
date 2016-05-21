@@ -22,15 +22,19 @@
       <Count>2</Count>
     </Card>
     <Card>
+      <Id>CS2_105</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
       <Id>NEW1_018</Id>
       <Count>2</Count>
     </Card>
     <Card>
       <Id>AT_094</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
-      <Id>AT_065</Id>
+      <Id>AT_087</Id>
       <Count>1</Count>
     </Card>
     <Card>
@@ -39,10 +43,10 @@
     </Card>
     <Card>
       <Id>LOE_022</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
-      <Id>NEW1_027</Id>
+      <Id>EX1_604</Id>
       <Count>2</Count>
     </Card>
     <Card>
@@ -71,9 +75,9 @@
     </Card>
   </Cards>
   <Class>Warrior</Class>
-  <HearthStatsDeckVersionId>11823913</HearthStatsDeckVersionId>
-  <HearthStatsId>10487640</HearthStatsId>
-  <LastEdited>2016-05-18T20:21:37.9048474-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907609</HearthStatsDeckVersionId>
+  <HearthStatsId>10559322</HearthStatsId>
+  <LastEdited>2016-05-20T19:02:28.4128821-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -93,9 +97,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>40a0e4ff-79db-4d38-bf3d-3b0a1ecdd17f</DeckId>
+  <DeckId>aecf4532-e4a8-46e0-9a34-26307e194ff7</DeckId>
   <Name>PIRATE</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487640</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559322</HearthStatsIdForUploading>
 </Deck>

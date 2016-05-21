@@ -42,6 +42,10 @@
       <Count>2</Count>
     </Card>
     <Card>
+      <Id>LOE_111</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
       <Id>CS1_112</Id>
       <Count>2</Count>
     </Card>
@@ -59,7 +63,7 @@
     </Card>
     <Card>
       <Id>EX1_091</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>EX1_016</Id>
@@ -75,9 +79,9 @@
     </Card>
   </Cards>
   <Class>Priest</Class>
-  <HearthStatsDeckVersionId>11823953</HearthStatsDeckVersionId>
-  <HearthStatsId>10487672</HearthStatsId>
-  <LastEdited>2016-05-18T20:22:54.4302244-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907626</HearthStatsDeckVersionId>
+  <HearthStatsId>10559338</HearthStatsId>
+  <LastEdited>2016-05-20T19:03:12.8674248-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -97,9 +101,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>95b07327-8aa9-419e-9797-6a0458b1ecc6</DeckId>
+  <DeckId>63ad59ba-ad10-42dc-a609-08c46ea6c1a0</DeckId>
   <Name>DRAGON</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487672</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559338</HearthStatsIdForUploading>
 </Deck>

@@ -11,7 +11,7 @@
     </Card>
     <Card>
       <Id>EX1_400</Id>
-      <Count>2</Count>
+      <Count>1</Count>
     </Card>
     <Card>
       <Id>CS2_106</Id>
@@ -58,6 +58,10 @@
       <Count>1</Count>
     </Card>
     <Card>
+      <Id>EX1_558</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
       <Id>EX1_110</Id>
       <Count>1</Count>
     </Card>
@@ -79,9 +83,9 @@
     </Card>
   </Cards>
   <Class>Warrior</Class>
-  <HearthStatsDeckVersionId>11823708</HearthStatsDeckVersionId>
-  <HearthStatsId>10487466</HearthStatsId>
-  <LastEdited>2016-05-18T20:15:16.3250222-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907492</HearthStatsDeckVersionId>
+  <HearthStatsId>10559216</HearthStatsId>
+  <LastEdited>2016-05-20T18:58:19.2096285-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -101,9 +105,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>7eb50b4f-c5d0-40b1-b821-e912bfbf51cd</DeckId>
+  <DeckId>8d0d9ac6-9a0a-48b3-8c61-6ecb8d9b2e63</DeckId>
   <Name>TEMPO</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487466</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559216</HearthStatsIdForUploading>
 </Deck>

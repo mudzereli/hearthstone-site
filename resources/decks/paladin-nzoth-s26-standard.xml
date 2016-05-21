@@ -42,10 +42,6 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_048</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>BRM_001</Id>
       <Count>1</Count>
     </Card>
@@ -66,6 +62,10 @@
       <Count>1</Count>
     </Card>
     <Card>
+      <Id>AT_081</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
       <Id>EX1_298</Id>
       <Count>1</Count>
     </Card>
@@ -83,9 +83,9 @@
     </Card>
   </Cards>
   <Class>Paladin</Class>
-  <HearthStatsDeckVersionId>11823776</HearthStatsDeckVersionId>
-  <HearthStatsId>10487527</HearthStatsId>
-  <LastEdited>2016-05-18T21:28:42.5780455-05:00</LastEdited>
+  <HearthStatsDeckVersionId>11907526</HearthStatsDeckVersionId>
+  <HearthStatsId>10559248</HearthStatsId>
+  <LastEdited>2016-05-20T18:59:48.0657108-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -105,9 +105,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>3aeeb943-8ecd-494b-8d46-39e1237632c6</DeckId>
+  <DeckId>bf91d898-261f-46e6-9ce3-efd105d179b4</DeckId>
   <Name>NZOTH</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487527</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10559248</HearthStatsIdForUploading>
 </Deck>
