@@ -71,9 +71,9 @@
     </Card>
   </Cards>
   <Class>Warlock</Class>
-  <HearthStatsDeckVersionId>11823699</HearthStatsDeckVersionId>
-  <HearthStatsId>10487460</HearthStatsId>
-  <LastEdited>2016-05-18T20:13:23.8395885-05:00</LastEdited>
+  <HearthStatsDeckVersionId>12345535</HearthStatsDeckVersionId>
+  <HearthStatsId>10938014</HearthStatsId>
+  <LastEdited>2016-05-31T19:54:10.2840333-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -84,6 +84,7 @@
   </Version>
   <DeckHistory />
   <Archived>false</Archived>
+  <HsId>0</HsId>
   <Note />
   <SelectedVersion>
     <Build>0</Build>
@@ -93,9 +94,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>b7f14bbb-adbc-4081-899a-e94a5085e83a</DeckId>
+  <DeckId>51d7c667-2944-467d-99f4-740e1050e9e8</DeckId>
   <Name>ZOO - STANDARD</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10487460</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10938014</HearthStatsIdForUploading>
 </Deck>

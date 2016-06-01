@@ -2,82 +2,90 @@
 <Deck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cards>
     <Card>
-      <Id>OG_114</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_316</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_308</Id>
+      <Id>CS2_084</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>CS2_188</Id>
+      <Id>OG_179</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_008</Id>
+      <Id>EX1_611</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_319</Id>
+      <Id>BRM_013</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>OG_241</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>CS2_065</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_059</Id>
+      <Id>AT_094</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>LOE_023</Id>
+      <Id>LOE_046</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_162</Id>
+      <Id>AT_058</Id>
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>NEW1_019</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>OG_113</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>BRM_006</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>EX1_093</Id>
-      <Count>2</Count>
-    </Card>
-    <Card>
-      <Id>AT_122</Id>
+      <Id>EX1_536</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_116</Id>
+      <Id>NEW1_031</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_617</Id>
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_586</Id>
+      <Id>EX1_539</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>EX1_538</Id>
       <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>OG_325</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>DS1_070</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_216</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>NEW1_041</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_028</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>DS1_178</Id>
+      <Count>1</Count>
+    </Card>
+    <Card>
+      <Id>EX1_534</Id>
+      <Count>2</Count>
+    </Card>
+    <Card>
+      <Id>OG_211</Id>
+      <Count>2</Count>
     </Card>
   </Cards>
-  <Class>Warlock</Class>
-  <HearthStatsDeckVersionId>12345527</HearthStatsDeckVersionId>
-  <HearthStatsId>10938006</HearthStatsId>
-  <LastEdited>2016-05-31T19:53:54.1051079-05:00</LastEdited>
+  <Class>Hunter</Class>
+  <HearthStatsDeckVersionId>12345727</HearthStatsDeckVersionId>
+  <HearthStatsId>10938189</HearthStatsId>
+  <LastEdited>2016-05-31T20:00:28.8266847-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -98,9 +106,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>0fd212ef-665a-4db0-85a4-6bfd61c0d05b</DeckId>
-  <Name>ZOO - BURST</Name>
+  <DeckId>9542a004-f70d-4fe9-9453-c062f362853c</DeckId>
+  <Name>MIDRANGE</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10938006</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10938189</HearthStatsIdForUploading>
 </Deck>

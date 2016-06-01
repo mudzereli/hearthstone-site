@@ -10,10 +10,6 @@
       <Count>2</Count>
     </Card>
     <Card>
-      <Id>EX1_308</Id>
-      <Count>1</Count>
-    </Card>
-    <Card>
       <Id>CS2_188</Id>
       <Count>2</Count>
     </Card>
@@ -66,8 +62,8 @@
       <Count>1</Count>
     </Card>
     <Card>
-      <Id>EX1_116</Id>
-      <Count>1</Count>
+      <Id>EX1_310</Id>
+      <Count>2</Count>
     </Card>
     <Card>
       <Id>EX1_586</Id>
@@ -75,9 +71,9 @@
     </Card>
   </Cards>
   <Class>Warlock</Class>
-  <HearthStatsDeckVersionId>12345527</HearthStatsDeckVersionId>
-  <HearthStatsId>10938006</HearthStatsId>
-  <LastEdited>2016-05-31T19:53:54.1051079-05:00</LastEdited>
+  <HearthStatsDeckVersionId>12342224</HearthStatsDeckVersionId>
+  <HearthStatsId>10935191</HearthStatsId>
+  <LastEdited>2016-05-31T18:03:14.3453353-05:00</LastEdited>
   <MissingCards />
   <Url />
   <Version>
@@ -98,9 +94,9 @@
   </SelectedVersion>
   <HearthStatsIdsAlreadyReset>false</HearthStatsIdsAlreadyReset>
   <IsArenaDeck>false</IsArenaDeck>
-  <DeckId>0fd212ef-665a-4db0-85a4-6bfd61c0d05b</DeckId>
-  <Name>ZOO - BURST</Name>
+  <DeckId>df1f24e1-f38c-4149-8bfd-4cccd36acb52</DeckId>
+  <Name>ZOO</Name>
   <SyncWithHearthStats>true</SyncWithHearthStats>
   <Tags />
-  <HearthStatsIdForUploading>10938006</HearthStatsIdForUploading>
+  <HearthStatsIdForUploading>10935191</HearthStatsIdForUploading>
 </Deck>
